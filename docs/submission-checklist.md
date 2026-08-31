@@ -30,7 +30,9 @@
 - [ ] Run `python3 scripts/build_submission_archive.py` and retain the printed
   SHA-256 alongside the uploaded file.
 - [ ] Upload/publish the repository or sanitized ZIP.
-- [x] Video uploaded to Google Drive and added to the submission ZIP.
+- [x] Video uploaded to Google Drive and linked from the submission documents.
+- [x] Video excluded from the source ZIP to keep the archive small; judges use
+  the Google Drive link.
 - [ ] Replace the current approximately 6:37 recording with a five-minute-or-
   shorter cut; the supplied challenge limit is five minutes.
 - [x] Repository URL recorded:

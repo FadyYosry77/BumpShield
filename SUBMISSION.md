@@ -126,7 +126,8 @@ prompt-tuning opportunity.
 Run `python3 scripts/build_submission_archive.py` to create the sanitized ZIP
 outside the repository. Source is published at
 `https://github.com/FadyYosry77/BumpShield`; the current video is linked above
-and embedded when the archive is built with `--video`. Repository visibility
-and final platform submission remain human-controlled actions. The current
-recording is approximately 6:37 and therefore must be shortened to satisfy the
-stated five-minute limit.
+and excluded from the default source ZIP. The archive builder retains an
+optional `--video` mode, but judges should use the Google Drive link. Repository
+visibility and final platform submission remain human-controlled actions. The
+current recording is approximately 6:37 and therefore must be shortened to
+satisfy the stated five-minute limit.
