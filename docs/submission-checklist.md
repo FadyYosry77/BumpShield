@@ -30,13 +30,14 @@
 - [ ] Run `python3 scripts/build_submission_archive.py` and retain the printed
   SHA-256 alongside the uploaded file.
 - [ ] Upload/publish the repository or sanitized ZIP.
-- [ ] Record the video using `docs/video-script.md`; verify it is at most five
-  minutes and upload it as public or unlisted.
+- [x] Video uploaded to Google Drive and added to the submission ZIP.
+- [ ] Replace the current approximately 6:37 recording with a five-minute-or-
+  shorter cut; the supplied challenge limit is five minutes.
 - [x] Repository URL recorded:
   `https://github.com/FadyYosry77/BumpShield`.
-- [ ] Paste the repository and final video URLs into the platform form.
-- [ ] Use `docs/submission-form-copy.md` for the remaining form fields and
-  replace the video URL placeholder.
+- [x] Repository and current video URLs recorded in the form copy.
+- [ ] Use `docs/submission-form-copy.md` for the remaining form fields after the
+  compliant final video replaces the current link.
 - [ ] Attach or link `submission/agent-trajectories/README.md` so every agent
   workflow is reviewable.
 - [ ] Submit before **31 August 2026, 18:00 UTC (21:00 Africa/Cairo)**, as stated

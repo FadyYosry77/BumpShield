@@ -99,6 +99,7 @@ prompt-tuning opportunity.
 - [Clean-environment reproduction guide](docs/reproduction-guide.md)
 - [CLI and GUI usage guide](docs/usage-guide.md)
 - [Five-minute video script](docs/video-script.md)
+- [Recorded video](https://drive.google.com/file/d/16wg-Q1MrWquszqIpJq8O4qjMoAHLgVvm/view?usp=sharing)
 - [Representative agent trajectories](submission/agent-trajectories/README.md)
 - [Agent instructions and boundaries](submission/agent-instructions/README.md)
 - [Frozen final results](docs/final-research-results.md)
@@ -124,5 +125,8 @@ prompt-tuning opportunity.
 
 Run `python3 scripts/build_submission_archive.py` to create the sanitized ZIP
 outside the repository. Source is published at
-`https://github.com/FadyYosry77/BumpShield`; repository visibility, final
-platform submission, and video URL remain human-controlled actions.
+`https://github.com/FadyYosry77/BumpShield`; the current video is linked above
+and embedded when the archive is built with `--video`. Repository visibility
+and final platform submission remain human-controlled actions. The current
+recording is approximately 6:37 and therefore must be shortened to satisfy the
+stated five-minute limit.

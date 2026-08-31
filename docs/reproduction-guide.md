@@ -33,6 +33,10 @@ python -m pip install -e '.[dev,demo]'
 If using the submitted ZIP instead of Git, extract it, enter its top-level
 directory, and start at the `python3 -m venv` command.
 
+The video-inclusive ZIP also contains
+`submission/video/BumpShield-demo.mp4`. The video is not required to run or test
+the project.
+
 ## 2. Deterministic qualification path
 
 ```bash

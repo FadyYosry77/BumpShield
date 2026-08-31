@@ -65,7 +65,7 @@ verifier-controlled failure are more valuable than a confident success message.
 ## Links
 
 - Repository: `https://github.com/FadyYosry77/BumpShield`
-- Video (five minutes maximum): `<VIDEO_URL>`
+- Video: `https://drive.google.com/file/d/16wg-Q1MrWquszqIpJq8O4qjMoAHLgVvm/view?usp=sharing`
 - Submission overview: `SUBMISSION.md`
 - Reproduction: `docs/reproduction-guide.md`
 - Agent trajectories: `submission/agent-trajectories/README.md`

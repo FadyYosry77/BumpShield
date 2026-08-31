@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 from pathlib import Path, PurePosixPath
+import shutil
 import stat
 import zipfile
 
@@ -111,7 +112,12 @@ def validate_text_files(root: Path, files: list[Path]) -> None:
         raise SystemExit(f"Private path or key marker found in submission files: {joined}")
 
 
-def write_archive(root: Path, output: Path, files: list[Path]) -> None:
+def write_archive(
+    root: Path,
+    output: Path,
+    files: list[Path],
+    video: Path | None = None,
+) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     prefix = PurePosixPath("BumpShield")
     with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
@@ -121,6 +127,17 @@ def write_archive(root: Path, output: Path, files: list[Path]) -> None:
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = (stat.S_IFREG | 0o644) << 16
             archive.writestr(info, path.read_bytes())
+        if video is not None:
+            info = zipfile.ZipInfo(
+                str(prefix / "submission" / "video" / "BumpShield-demo.mp4"),
+                date_time=(2026, 8, 31, 0, 0, 0),
+            )
+            # MP4 is already compressed. Store it directly to avoid wasting
+            # time and memory while keeping the archive deterministic.
+            info.compress_type = zipfile.ZIP_STORED
+            info.external_attr = (stat.S_IFREG | 0o644) << 16
+            with video.open("rb") as source, archive.open(info, "w") as target:
+                shutil.copyfileobj(source, target, length=1024 * 1024)
 
 
 def sha256(path: Path) -> str:
@@ -139,6 +156,11 @@ def main() -> int:
         default=Path(__file__).resolve().parents[2] / "BumpShield-hackathon-submission.zip",
         help="ZIP destination (default: next to the repository)",
     )
+    parser.add_argument(
+        "--video",
+        type=Path,
+        help="optional MP4 added as submission/video/BumpShield-demo.mp4",
+    )
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     output = args.output.expanduser().resolve()
@@ -146,11 +168,21 @@ def main() -> int:
         raise SystemExit("Output must be outside the source repository")
     files = included_files(root)
     validate_text_files(root, files)
-    write_archive(root, output, files)
+    video = args.video.expanduser().resolve() if args.video else None
+    if video is not None:
+        if not video.is_file() or video.suffix.lower() != ".mp4":
+            raise SystemExit("--video must identify an existing MP4 file")
+        with video.open("rb") as stream:
+            header = stream.read(12)
+        if len(header) < 12 or header[4:8] != b"ftyp":
+            raise SystemExit("--video does not appear to be an MP4 container")
+    write_archive(root, output, files, video)
     print(f"Archive: {output}")
-    print(f"Files: {len(files)}")
+    print(f"Files: {len(files) + (1 if video else 0)}")
     print(f"Bytes: {output.stat().st_size}")
     print(f"SHA-256: {sha256(output)}")
+    if video is not None:
+        print(f"Video SHA-256: {sha256(video)}")
     return 0
 
 
