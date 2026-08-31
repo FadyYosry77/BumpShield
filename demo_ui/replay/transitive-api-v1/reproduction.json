@@ -1,0 +1,21 @@
+{
+  "run_id": "a1817ad83c1349b3b0bb7487d25e0554",
+  "status": "CONFIRMED",
+  "base": {
+    "commit": "1fadc7f8f3b38664fb50944c94906fe1c47d3bda",
+    "command": "mvn -B test",
+    "status": "PASS",
+    "tests": {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "updated": {
+    "commit": "266367b31a73ab17da2f95a0c31e4ab72ebd0332",
+    "command": "mvn -B test",
+    "status": "FAIL",
+    "reason": "cannot find symbol: trimRecord(java.lang.String)"
+  }
+}

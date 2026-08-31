@@ -1,0 +1,8 @@
+{
+  "executable": "codex",
+  "maximum_attempts": 3,
+  "model": null,
+  "provider": "codex-cli",
+  "timeout_seconds": 900.0,
+  "version": "codex-cli 0.151.0"
+}

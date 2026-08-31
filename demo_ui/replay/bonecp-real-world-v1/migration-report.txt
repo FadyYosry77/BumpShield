@@ -1,0 +1,37 @@
+BumpShield Migration Report
+===========================
+
+Project
+BoneCP (real open-source project; constructed dependency upgrade)
+
+Target Dependency
+com.google.guava:guava
+15.0 -> 21.0
+
+Diagnosis
+SUPPORTED_DIAGNOSIS: Guava removed Objects.toStringHelper(...).
+
+Migration Plan
+PLAN_READY: two bounded production source files.
+
+Repair attempts: 1
+Winning attempt: 1
+Files changed: 2
+Lines: +4 -4
+Compile: PASS
+Tests: PASS (197 run; 0 failures; 0 errors; 3 pre-existing skips)
+
+Independent Verification
+TARGET_DEPENDENCY: PASS
+CAUSAL_DEPENDENCY: PASS
+COMPILE: PASS
+TESTS: PASS
+TEST_FILES: PASS
+TEST_DISABLEMENT: PASS
+TEST_SKIPPING: PASS
+PATCH_SCOPE: PASS
+PATCH_SAFETY: PASS
+
+Final Status
+VERIFIED_MIGRATION
+

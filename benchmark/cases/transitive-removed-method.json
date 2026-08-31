@@ -1,0 +1,30 @@
+{
+  "id": "transitive-removed-method",
+  "description": "core-lib upgrade transitively upgrades parser-lib and removes Parser.parseValue(String)",
+  "task": {
+    "repository": "../runtime/transitive-removed-method/application",
+    "base_commit": "base",
+    "updated_commit": "updated",
+    "target_dependency": {
+      "group_id": "com.bumpshield.fixture",
+      "artifact_id": "core-lib",
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    }
+  },
+  "case_type": "TRANSITIVE",
+  "source": "SYNTHETIC_FIXTURE",
+  "split": "DEV",
+  "ground_truth": {
+    "breaking_dependency": {
+      "group_id": "com.bumpshield.fixture",
+      "artifact_id": "parser-lib",
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    },
+    "failure_kind": "REMOVED_METHOD",
+    "class": "com.bumpshield.fixture.parser.Parser",
+    "member": "parseValue(java.lang.String)"
+  },
+  "tags": ["transitive", "removed-method", "synthetic"]
+}

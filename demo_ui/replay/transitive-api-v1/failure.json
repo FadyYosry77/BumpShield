@@ -1,0 +1,51 @@
+{
+  "category": "MISSING_SYMBOL",
+  "file": "src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java",
+  "line": 9,
+  "column": 29,
+  "symbol": "trimRecord(java.lang.String)",
+  "location": "variable recordTrimmer of type com.bumpshield.finalfixture.c011.legacy.RecordTrimmer",
+  "message": "cannot find symbol",
+  "source_context": [
+    {
+      "number": 5,
+      "text": "public final class MigrationClient011 {"
+    },
+    {
+      "number": 6,
+      "text": "    private final RecordTrimmer recordTrimmer = new RecordTrimmer();"
+    },
+    {
+      "number": 7,
+      "text": ""
+    },
+    {
+      "number": 8,
+      "text": "    public String transform(String value) {"
+    },
+    {
+      "number": 9,
+      "text": "        return recordTrimmer.trimRecord(value);"
+    },
+    {
+      "number": 10,
+      "text": "    }"
+    },
+    {
+      "number": 11,
+      "text": ""
+    },
+    {
+      "number": 12,
+      "text": "    public String pair(String left, String right) {"
+    },
+    {
+      "number": 13,
+      "text": "        return recordTrimmer.trimRecord(left) + \"|\" + recordTrimmer.trimRecord(right);"
+    },
+    {
+      "number": 14,
+      "text": "    }"
+    }
+  ]
+}

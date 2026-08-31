@@ -1,0 +1,15 @@
+{
+  "id": "BUMP-DEV-v1",
+  "cases": [
+    "cases/direct-removed-method.json",
+    "cases/transitive-removed-method.json",
+    "cases/direct-changed-signature.json",
+    "cases/transitive-removed-class.json"
+  ],
+  "strategies": [
+    "direct-one-shot",
+    "direct-retry",
+    "bumpshield"
+  ],
+  "trials": 1
+}

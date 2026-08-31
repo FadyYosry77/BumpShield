@@ -1,0 +1,448 @@
+{
+  "case_records": [
+    {
+      "base_commit": "dc08a9964a7edda09c962fe8ade2911545707cac",
+      "case_type": "DIRECT",
+      "failure_kind": "REMOVED_METHOD",
+      "id": "final-case-001",
+      "manifest": "final-cases/final-case-001.json",
+      "manifest_hash": "599e3a5446b5452cb895153b8b8875a4e79bf62b2b1a19046f3e5a722087acd5",
+      "repository": "../final-runtime/final-case-001/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "9c899682d69c99c02c3a29dec6e5505176d1bc1a"
+    },
+    {
+      "base_commit": "5ee85de4502c89bbe84a2fdb916414fb495a83dd",
+      "case_type": "DIRECT",
+      "failure_kind": "REMOVED_METHOD",
+      "id": "final-case-002",
+      "manifest": "final-cases/final-case-002.json",
+      "manifest_hash": "d679640b93f3c33322fffae26e8635f2afd5688bb77c63e37a3b7d27547720c2",
+      "repository": "../final-runtime/final-case-002/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "096dec65dcdf7e3e4f87fb9c0fe7c61e262804f1"
+    },
+    {
+      "base_commit": "227e7f9343efa20f41dead39e956a22661032565",
+      "case_type": "DIRECT",
+      "failure_kind": "REMOVED_METHOD",
+      "id": "final-case-003",
+      "manifest": "final-cases/final-case-003.json",
+      "manifest_hash": "db3b1fc34cf0b270534c7132197889977f3393afd51e7d0b00760b9e88d51072",
+      "repository": "../final-runtime/final-case-003/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "ee11f3f9aa79750959ba7ea19631be0e8c8edaae"
+    },
+    {
+      "base_commit": "ebf36773af2835bc4bd2fb0e4de3830f4c59e7f5",
+      "case_type": "DIRECT",
+      "failure_kind": "CHANGED_METHOD_SIGNATURE",
+      "id": "final-case-004",
+      "manifest": "final-cases/final-case-004.json",
+      "manifest_hash": "e71c1a5a54274071b959d8b810e51b3043907bc574a566c4df6a0becafd3f636",
+      "repository": "../final-runtime/final-case-004/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "8a879b8eea821915ced4b57af29bd07107aeeae8"
+    },
+    {
+      "base_commit": "1986cd14627e9c7ff2246a9b34498524b991f002",
+      "case_type": "DIRECT",
+      "failure_kind": "CHANGED_METHOD_SIGNATURE",
+      "id": "final-case-005",
+      "manifest": "final-cases/final-case-005.json",
+      "manifest_hash": "2bc06a4493459321ac2bf059a3197ecf7cd9717c4cfacdcb10ded0bc66eb840c",
+      "repository": "../final-runtime/final-case-005/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "de9d5272e39e44e656e3fd2370f236ecac8f3b95"
+    },
+    {
+      "base_commit": "bdb50cc457d06993c4d902a1e378a37c8abacc9f",
+      "case_type": "DIRECT",
+      "failure_kind": "CHANGED_METHOD_SIGNATURE",
+      "id": "final-case-006",
+      "manifest": "final-cases/final-case-006.json",
+      "manifest_hash": "c672eceaee104c92f7eb61a89481929ac05d2ce47bb6baa2a91d2bb5127c30c4",
+      "repository": "../final-runtime/final-case-006/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "7a4061fd6e37165dce2f6550b33bcd8208595b04"
+    },
+    {
+      "base_commit": "024fb17cb9806d7f611e940efc2ae0040d71fcb0",
+      "case_type": "DIRECT",
+      "failure_kind": "REMOVED_CLASS",
+      "id": "final-case-007",
+      "manifest": "final-cases/final-case-007.json",
+      "manifest_hash": "98e1614612a7402495d3f834a56c8a57333b417aa941580803e4d9250797492e",
+      "repository": "../final-runtime/final-case-007/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "ca20ab38d4a81ab576f0aedf35e9b3f83706196f"
+    },
+    {
+      "base_commit": "84ee4ce4e14e9100189fc105c45d38d090ca7f97",
+      "case_type": "DIRECT",
+      "failure_kind": "REMOVED_CLASS",
+      "id": "final-case-008",
+      "manifest": "final-cases/final-case-008.json",
+      "manifest_hash": "1a7ae4f888dfa1b24c551944d0d1f7414dff2e8ac35dacfa970d5de25c5e1216",
+      "repository": "../final-runtime/final-case-008/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "517cf96929fb01532e1860637c800099d6b77419"
+    },
+    {
+      "base_commit": "b452b578e331e30fbf867f1cf38377280dfc8a42",
+      "case_type": "DIRECT",
+      "failure_kind": "REMOVED_PACKAGE",
+      "id": "final-case-009",
+      "manifest": "final-cases/final-case-009.json",
+      "manifest_hash": "eefc575b1df94fe710b6ee79a51b6b65424c70ed5c854bc8a4348b985022a9f1",
+      "repository": "../final-runtime/final-case-009/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "43205b9f259dfb687e2944974d32ed298a25f736"
+    },
+    {
+      "base_commit": "0a46a7acd439876e593f75bd90e5caa5515f78d3",
+      "case_type": "DIRECT",
+      "failure_kind": "REMOVED_PACKAGE",
+      "id": "final-case-010",
+      "manifest": "final-cases/final-case-010.json",
+      "manifest_hash": "530859fcdbd876b5199eb07cd59bb03e6dc20d9170cd15ed02f0effeba04a59b",
+      "repository": "../final-runtime/final-case-010/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "cb795d3d9a81815d964091a4b02782fc37db27e7"
+    },
+    {
+      "base_commit": "1fadc7f8f3b38664fb50944c94906fe1c47d3bda",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "REMOVED_METHOD",
+      "id": "final-case-011",
+      "manifest": "final-cases/final-case-011.json",
+      "manifest_hash": "4466fe02760f9894bf71afc7b20f40ffc5dd439bc5a0010c9bef153f92a6e7ce",
+      "repository": "../final-runtime/final-case-011/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "266367b31a73ab17da2f95a0c31e4ab72ebd0332"
+    },
+    {
+      "base_commit": "76befc43b9bdfae276ac7919c4945070469017d5",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "CHANGED_METHOD_SIGNATURE",
+      "id": "final-case-012",
+      "manifest": "final-cases/final-case-012.json",
+      "manifest_hash": "9a8998b520503d171b323d581de5a5d5ab149e39778642d023226531de38f75e",
+      "repository": "../final-runtime/final-case-012/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "e9f8e53828d6d6655d7ed28961739fdb7ee706b9"
+    },
+    {
+      "base_commit": "7ed075d42407dc2cc539320e0015060b434137d0",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "REMOVED_CLASS",
+      "id": "final-case-013",
+      "manifest": "final-cases/final-case-013.json",
+      "manifest_hash": "c30a247b5dcc0791c2d9e700bd7b3af24fb1326d5fc93451e3caaf2f2f93f4c0",
+      "repository": "../final-runtime/final-case-013/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "5bca724b0fb7f2d58233a6ac42c0aedbd8600c15"
+    },
+    {
+      "base_commit": "37a544dcd691f8c61663415c54374d98b2adca32",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "REMOVED_CLASS",
+      "id": "final-case-014",
+      "manifest": "final-cases/final-case-014.json",
+      "manifest_hash": "ad91a0c0758a5bff16dcb213aed8a3b8aaa4234d83e67b33ae920821a5afab31",
+      "repository": "../final-runtime/final-case-014/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "bd7e748cec5b822dcad845a18a4f1fd259b98154"
+    },
+    {
+      "base_commit": "5e7031a3d03549ce0237ccd64d208c4aa56fc28f",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "REMOVED_PACKAGE",
+      "id": "final-case-015",
+      "manifest": "final-cases/final-case-015.json",
+      "manifest_hash": "48539520cdb9210a10639702a0c92caf6704110370e2d8ef0d8c44389327af57",
+      "repository": "../final-runtime/final-case-015/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "69d223945a84a50ddbf4fd8de431a46673305fcd"
+    },
+    {
+      "base_commit": "d0cd1a4a7dab59f2c30038874120fbb76577d55c",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "REMOVED_PACKAGE",
+      "id": "final-case-016",
+      "manifest": "final-cases/final-case-016.json",
+      "manifest_hash": "4710958aff49d7c59045deed68a84482967405e6db5706dfeef38a61fe1edf57",
+      "repository": "../final-runtime/final-case-016/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "5b20fbb35c10629c1db1c305ca5d3fe8f0e7da43"
+    },
+    {
+      "base_commit": "7e7a7b14829544106ab0249e8cfd5a83f87abf0c",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "REMOVED_DEPENDENCY",
+      "id": "final-case-017",
+      "manifest": "final-cases/final-case-017.json",
+      "manifest_hash": "bf6ebb22bd1e868c72f4f428531e43c8779db60b120f7d8438afcc30d450726e",
+      "repository": "../final-runtime/final-case-017/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "780e3e75646fea82a83a4508f8a4ccd3c262e941"
+    },
+    {
+      "base_commit": "5181a2f373bac643b4eca80c909f6e707d472cde",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "REMOVED_DEPENDENCY",
+      "id": "final-case-018",
+      "manifest": "final-cases/final-case-018.json",
+      "manifest_hash": "762c595fd2f97e1e1f2398246f5eed9481cedd17b9dc5cecf4da13df81b5c407",
+      "repository": "../final-runtime/final-case-018/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "512953f62258553796fb7734a2e3379ebeffeb72"
+    },
+    {
+      "base_commit": "b839175cd7cfe4ccf11b4bac1076947ff2d9e10e",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "REMOVED_DEPENDENCY",
+      "id": "final-case-019",
+      "manifest": "final-cases/final-case-019.json",
+      "manifest_hash": "9ffe8d83dbb09e4097571849985d9b0fedb708466b4c33f4a50ec77965522f57",
+      "repository": "../final-runtime/final-case-019/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "90079cf3c74b41ec41812dd6af35741ddd5b4510"
+    },
+    {
+      "base_commit": "93a44805407e91d9e0a6a45ea3e09768f09504de",
+      "case_type": "TRANSITIVE",
+      "failure_kind": "REMOVED_DEPENDENCY",
+      "id": "final-case-020",
+      "manifest": "final-cases/final-case-020.json",
+      "manifest_hash": "7a8e078bd6bf639b26599c92bfd58793b3e9e4f555896b1fb3457a62e28e6f4e",
+      "repository": "../final-runtime/final-case-020/application",
+      "source": "SYNTHETIC_FIXTURE",
+      "updated_commit": "b368c890f3701081dd5ac7bc5496043c1c8e053a"
+    }
+  ],
+  "composition": {
+    "direct": 10,
+    "failure_kinds": {
+      "CHANGED_METHOD_SIGNATURE": 4,
+      "REMOVED_CLASS": 4,
+      "REMOVED_DEPENDENCY": 4,
+      "REMOVED_METHOD": 4,
+      "REMOVED_PACKAGE": 4
+    },
+    "sources": {
+      "SYNTHETIC_FIXTURE": 20
+    },
+    "total": 20,
+    "transitive": 10
+  },
+  "config_hash": "3c0dfaad58f985d1c9a9db7f17ee28a84af7f8b3bcce45de5dd078877943ff56",
+  "dataset_hash": "8bd13704194037bd3c672233af5d4e1102d78cb084aea736dd7738ded37a4e8a",
+  "schema_version": 1,
+  "suite_id": "BUMP-FINAL-v1",
+  "validation": {
+    "cases": [
+      {
+        "case_id": "final-case-001",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-002",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-003",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-004",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-005",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-006",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-007",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-008",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-009",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-010",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-011",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-012",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-013",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-014",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-015",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-016",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-017",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-018",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-019",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      },
+      {
+        "case_id": "final-case-020",
+        "provenance_present": true,
+        "reason": null,
+        "relationship_valid": true,
+        "reproduction_status": "CONFIRMED",
+        "split_valid": true,
+        "status": "VALID",
+        "target_versions_matched": true
+      }
+    ],
+    "suite_id": "BUMP-FINAL-v1"
+  }
+}

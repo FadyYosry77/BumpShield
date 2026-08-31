@@ -1,0 +1,39 @@
+{
+  "kind": "REMOVED_MEMBER",
+  "class": "com.google.common.base.Objects",
+  "failure_symbol": "toStringHelper(com.jolbox.bonecp.ConnectionHandle)",
+  "before": {
+    "group_id": "com.google.guava",
+    "artifact_id": "guava",
+    "version": "15.0"
+  },
+  "after": {
+    "group_id": "com.google.guava",
+    "artifact_id": "guava",
+    "version": "21.0"
+  },
+  "old_class_present": true,
+  "new_class_present": true,
+  "old_members": [
+    {
+      "kind": "METHOD",
+      "name": "toStringHelper",
+      "declaration": "public static com.google.common.base.Objects$ToStringHelper toStringHelper(java.lang.Object);"
+    }
+  ],
+  "new_members": [],
+  "new_class_members": [
+    {
+      "kind": "METHOD",
+      "name": "equal",
+      "declaration": "public static boolean equal(java.lang.Object, java.lang.Object);"
+    },
+    {
+      "kind": "METHOD",
+      "name": "hashCode",
+      "declaration": "public static int hashCode(java.lang.Object...);"
+    }
+  ],
+  "match_strategy": "EXACT_PARAMETERS"
+}
+

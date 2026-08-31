@@ -1,0 +1,42 @@
+{
+  "bumpshield_vs_direct_one_shot": {
+    "both_verified": 18,
+    "case_type": null,
+    "comparable_pairs": 20,
+    "left": "bumpshield",
+    "left_only": 0,
+    "neither": 0,
+    "right": "direct-one-shot",
+    "right_only": 2
+  },
+  "bumpshield_vs_direct_retry": {
+    "both_verified": 18,
+    "case_type": null,
+    "comparable_pairs": 20,
+    "left": "bumpshield",
+    "left_only": 0,
+    "neither": 0,
+    "right": "direct-retry",
+    "right_only": 2
+  },
+  "transitive_bumpshield_vs_direct_one_shot": {
+    "both_verified": 9,
+    "case_type": "TRANSITIVE",
+    "comparable_pairs": 10,
+    "left": "bumpshield",
+    "left_only": 0,
+    "neither": 0,
+    "right": "direct-one-shot",
+    "right_only": 1
+  },
+  "transitive_bumpshield_vs_direct_retry": {
+    "both_verified": 9,
+    "case_type": "TRANSITIVE",
+    "comparable_pairs": 10,
+    "left": "bumpshield",
+    "left_only": 0,
+    "neither": 0,
+    "right": "direct-retry",
+    "right_only": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source_run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "kind": "REMOVED_MEMBER",
+  "class": "com.google.common.base.Objects",
+  "failure_symbol": "toStringHelper(com.jolbox.bonecp.ConnectionHandle)",
+  "before": "com.google.guava:guava:15.0",
+  "after": "com.google.guava:guava:21.0",
+  "old_class_present": true,
+  "new_class_present": true,
+  "old_member": "public static com.google.common.base.Objects$ToStringHelper toStringHelper(java.lang.Object);",
+  "new_member_present": false,
+  "match_strategy": "EXACT_PARAMETERS"
+}
+

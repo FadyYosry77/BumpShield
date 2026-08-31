@@ -1,0 +1,21 @@
+{
+  "source_run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "count": 2,
+  "failures": [
+    {
+      "category": "MISSING_SYMBOL",
+      "file": "bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java",
+      "line": 1711,
+      "symbol": "toStringHelper(com.jolbox.bonecp.ConnectionHandle)",
+      "location": "class com.google.common.base.Objects"
+    },
+    {
+      "category": "MISSING_SYMBOL",
+      "file": "bonecp/src/main/java/com/jolbox/bonecp/ConnectionPartition.java",
+      "line": 314,
+      "symbol": "toStringHelper(com.jolbox.bonecp.ConnectionPartition)",
+      "location": "class com.google.common.base.Objects"
+    }
+  ]
+}
+

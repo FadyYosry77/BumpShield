@@ -1,0 +1,22 @@
+{
+  "showcase_id": "BONECP-GUAVA-REAL-WORLD-v1",
+  "scope": "REAL_OPEN_SOURCE_PROJECT",
+  "showcase_type": "CONSTRUCTED_UPGRADE",
+  "benchmark_membership": "NOT_PART_OF_BUMP_FINAL_V1",
+  "upstream_sha": "2ea6baad5c5e0751856c00dd7633b1b767249ea2",
+  "base_showcase_commit": "cfdb82af09db010f9d1925af2f3f2910329ebce9",
+  "updated_showcase_commit": "d766e34a08d4e5fd66fbcddebfd4e7e8073dea91",
+  "dependency_transition": "com.google.guava:guava:15.0->21.0",
+  "final_result": "VERIFIED_MIGRATION",
+  "result_file_hashes": {
+    "results/api-evidence-summary.json": "5ba5e84a9d29c60e708d78d8bdef8de70760554e41f17cd82b184f45a216b8f0",
+    "results/dependency-summary.json": "46a525f3523fc205f684a5ab4f2ac30d55494c56da05d6f2402c1e4a5d32374a",
+    "results/diagnosis.json": "fc6ffb8e5027ae437d67247ef61d05373ffb05844fa8ace97deafaf60a0fbfbd",
+    "results/failure-summary.json": "798061a403075e402e006627cb99bd8a1b6394444d77f0e8331fc3468e6e94bc",
+    "results/final.patch": "4dc512d783c27ac4a33bddb445691f868ccf45626fc6fa39d4a798594adac6e9",
+    "results/migration-plan.json": "84ad80a867826d1367bca16e2d73aab9dcf8550da1506c9c9be309b8a9e95a74",
+    "results/reproduction.json": "bd1cc957f36df0552293dcb8adbd456f62fd08dfeb863d97f079015855782f77",
+    "results/verification.json": "23ae016a4f8e447751f46b400f5e4b2bf4b53dd8688786c01c834ac8b41c06e6"
+  }
+}
+

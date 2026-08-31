@@ -1,0 +1,51 @@
+{
+  "replay_bundle_id": "bonecp-guava-real-world-v1",
+  "source_run_type": "REAL_OPEN_SOURCE_PROJECT",
+  "source_run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "recorded_at": "2026-08-31",
+  "fixture": "BoneCP Guava 15.0 to 21.0 constructed upgrade",
+  "project": "BoneCP",
+  "showcase_type": "CONSTRUCTED_UPGRADE",
+  "upstream_repository": "https://github.com/wwadge/bonecp.git",
+  "upstream_commit": "2ea6baad5c5e0751856c00dd7633b1b767249ea2",
+  "source_report": "docs/real-world-showcase.md",
+  "target_dependency": {
+    "group_id": "com.google.guava",
+    "artifact_id": "guava",
+    "old_version": "15.0",
+    "new_version": "21.0"
+  },
+  "causal_dependency": {
+    "group_id": "com.google.guava",
+    "artifact_id": "guava",
+    "old_version": "15.0",
+    "new_version": "21.0"
+  },
+  "original_final_status": "VERIFIED_MIGRATION",
+  "attempt_count": 1,
+  "test_count": 197,
+  "original_repository_unchanged": true,
+  "sanitization_status": "Portable presentation copy derived from structured run artifacts. patch.diff is byte-identical to the verified run; compact JSON removes absolute worktree paths, build-log noise, and provider output.",
+  "toolchain": {
+    "Python": "3.12.3",
+    "Git": "2.43.0",
+    "Java": "Temurin 1.8.0_504",
+    "Maven": "3.2.5",
+    "Codex CLI": "0.151.0"
+  },
+  "bundle_hash": "0c1cfd2208d606ce2b81a065cd6a6593134427864d16cf2e39e64b29ddcf9b9b",
+  "artifact_hashes": {
+    "api-evidence.json": "458af04b5a75e92d89a3ebe863d6f5bfea529e30b4be685ad6a7a0d304f410a8",
+    "dependency-diff.json": "8d8946ff55927285c9864f13bbeb8065caba56dc6b2019bf3b0cafaceffc93c6",
+    "diagnosis.json": "ae46e2fe9ac19274b0e826ec0b3a363446ab414422ff6d4cf9d4b557f6df9bd1",
+    "execution.json": "5265237fe9e4829ece7e8566f87d12cc7acd1a34838e7787e90cef6f04a02683",
+    "failure.json": "1bf8d83942acd02d357511d60a0a619250e74712c004ab2f6137597d4f2c0740",
+    "manifest.json": "cfa0f9b31c9207550406df278e7641433dffb2f3b357708f58ef98831050583a",
+    "migration-plan.json": "031212ccb6010383de88f327b08dc73661f5fbe82eabd49db78de649db68cb4c",
+    "migration-report.txt": "3d90974172d23833a4df1bfa589abd5b941e963ad09e126969ca348823706d0b",
+    "patch.diff": "4dc512d783c27ac4a33bddb445691f868ccf45626fc6fa39d4a798594adac6e9",
+    "reproduction.json": "f6ae3ccf5ec6d4b461eaf9466dd44079c632115255cbe10486264ae19fd09c10",
+    "verification.json": "1148dfdafe26587a652472e9a0ee5682ea9bfb2d7c6e7960c97f0504a86d64cd"
+  }
+}
+

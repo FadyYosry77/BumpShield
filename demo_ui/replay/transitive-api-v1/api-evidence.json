@@ -1,0 +1,33 @@
+{
+  "kind": "REMOVED_MEMBER",
+  "class": "com.bumpshield.finalfixture.c011.legacy.RecordTrimmer",
+  "failure_symbol": "trimRecord(java.lang.String)",
+  "before": {
+    "group_id": "com.bumpshield.finalfixture",
+    "artifact_id": "c011-legacy-api",
+    "version": "1.0.0"
+  },
+  "after": {
+    "group_id": "com.bumpshield.finalfixture",
+    "artifact_id": "c011-legacy-api",
+    "version": "2.0.0"
+  },
+  "old_class_present": true,
+  "new_class_present": true,
+  "old_members": [
+    {
+      "kind": "METHOD",
+      "name": "trimRecord",
+      "declaration": "public java.lang.String trimRecord(java.lang.String);"
+    }
+  ],
+  "new_members": [],
+  "new_class_members": [
+    {
+      "kind": "METHOD",
+      "name": "normalize",
+      "declaration": "public java.lang.String normalize(java.lang.String, com.bumpshield.finalfixture.c011.legacy.MigrationOptions);"
+    }
+  ],
+  "match_strategy": "EXACT_PARAMETERS"
+}

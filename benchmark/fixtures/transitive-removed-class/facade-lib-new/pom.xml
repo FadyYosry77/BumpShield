@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bumpshield.fixture</groupId>
+  <artifactId>facade-lib</artifactId>
+  <version>2.0.0</version>
+  <properties><maven.compiler.release>11</maven.compiler.release></properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.bumpshield.fixture</groupId>
+      <artifactId>format-lib</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

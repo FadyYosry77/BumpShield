@@ -1,0 +1,83 @@
+{
+  "plan_id": "P-142F5D78EA",
+  "run_id": "514fde6deca84d35a040add5d329729a",
+  "status": "PLAN_READY",
+  "diagnosis_status": "SUPPORTED_DIAGNOSIS",
+  "hypothesis_id": "H-B4502CF840",
+  "migration_kind": "REMOVED_METHOD",
+  "summary": "Plan REMOVED_METHOD migration for com.bumpshield.finalfixture.c011.legacy.RecordTrimmer.trimRecord(java.lang.String) across 1 bounded source file(s).",
+  "target_upgrade": {
+    "group_id": "com.bumpshield.finalfixture",
+    "artifact_id": "c011-core",
+    "old_version": "1.0.0",
+    "new_version": "2.0.0"
+  },
+  "affected_dependency": {
+    "kind": "UPDATED",
+    "relationship": "TRANSITIVE",
+    "before": {
+      "group_id": "com.bumpshield.finalfixture",
+      "artifact_id": "c011-legacy-api",
+      "version": "1.0.0"
+    },
+    "after": {
+      "group_id": "com.bumpshield.finalfixture",
+      "artifact_id": "c011-legacy-api",
+      "version": "2.0.0"
+    }
+  },
+  "affected_class": "com.bumpshield.finalfixture.c011.legacy.RecordTrimmer",
+  "affected_member": "trimRecord(java.lang.String)",
+  "old_api": [
+    {
+      "kind": "METHOD",
+      "name": "trimRecord",
+      "declaration": "public java.lang.String trimRecord(java.lang.String);"
+    }
+  ],
+  "new_api_candidates": [],
+  "primary_source_location": {
+    "file": "src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java",
+    "line": 9,
+    "kind": "PRIMARY_FAILURE"
+  },
+  "affected_source_locations": [
+    {
+      "file": "src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java",
+      "line": 9,
+      "kind": "PRIMARY_FAILURE"
+    },
+    {
+      "file": "src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java",
+      "line": 13,
+      "kind": "POTENTIAL_CALL_SITE"
+    }
+  ],
+  "allowed_files": [
+    "src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java"
+  ],
+  "required_outcome": "Project source must stop relying on removed com.bumpshield.finalfixture.c011.legacy.RecordTrimmer.trimRecord(java.lang.String) while remaining compatible with com.bumpshield.finalfixture:c011-legacy-api:2.0.0.",
+  "constraints": [
+    "TARGET_VERSION_MUST_REMAIN",
+    "TARGET_DEPENDENCY_MUST_REMAIN",
+    "CAUSAL_DEPENDENCY_NO_DOWNGRADE",
+    "NO_TEST_DELETION",
+    "NO_TEST_DISABLEMENT",
+    "NO_TEST_SKIP_CONFIGURATION",
+    "NO_FUNCTIONALITY_REMOVAL",
+    "NO_DUMMY_IMPLEMENTATION",
+    "MINIMAL_PATCH",
+    "NO_UNRELATED_CHANGES"
+  ],
+  "verification_requirements": [
+    "TARGET_VERSION_RETAINED",
+    "TARGET_DEPENDENCY_PRESENT",
+    "COMPILE_PASSES",
+    "TESTS_PASS",
+    "TESTS_RETAINED",
+    "TESTS_ENABLED",
+    "PATCH_SCOPE_ACCEPTABLE"
+  ],
+  "scope": "SMALL",
+  "cautious_repair": false
+}

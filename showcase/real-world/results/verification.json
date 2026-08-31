@@ -1,0 +1,32 @@
+{
+  "source_run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "attempt_count": 1,
+  "status": "VERIFIED_MIGRATION",
+  "patch": {
+    "files_changed": 2,
+    "lines_added": 4,
+    "lines_removed": 4,
+    "scope": "IN_SCOPE"
+  },
+  "compile": "PASS",
+  "tests": {
+    "status": "PASS",
+    "tests": 197,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 3,
+    "skips_pre_existing": true
+  },
+  "checks": {
+    "TARGET_DEPENDENCY": "PASS",
+    "CAUSAL_DEPENDENCY": "PASS",
+    "COMPILE": "PASS",
+    "TESTS": "PASS",
+    "TEST_FILES": "PASS",
+    "TEST_DISABLEMENT": "PASS",
+    "TEST_SKIPPING": "PASS",
+    "PATCH_SCOPE": "PASS",
+    "PATCH_SAFETY": "PASS"
+  }
+}
+

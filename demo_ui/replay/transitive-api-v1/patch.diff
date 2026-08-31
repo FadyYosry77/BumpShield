@@ -1,0 +1,24 @@
+diff --git a/src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java b/src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java
+index bda3a5054a733ba39ce4ce6e1aab1e23914d6c24..aa796b1481bd58b3e2c7a0c339cef7e46da9dd75 100644
+--- a/src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java
++++ b/src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java
+@@ -1,15 +1,17 @@
+ package com.bumpshield.finalfixture.c011.app;
+ 
++import com.bumpshield.finalfixture.c011.legacy.MigrationOptions;
+ import com.bumpshield.finalfixture.c011.legacy.RecordTrimmer;
+ 
+ public final class MigrationClient011 {
+     private final RecordTrimmer recordTrimmer = new RecordTrimmer();
+ 
+     public String transform(String value) {
+-        return recordTrimmer.trimRecord(value);
++        return recordTrimmer.normalize(value, MigrationOptions.DEFAULT);
+     }
+ 
+     public String pair(String left, String right) {
+-        return recordTrimmer.trimRecord(left) + "|" + recordTrimmer.trimRecord(right);
++        return recordTrimmer.normalize(left, MigrationOptions.DEFAULT)
++                + "|" + recordTrimmer.normalize(right, MigrationOptions.DEFAULT);
+     }
+ }

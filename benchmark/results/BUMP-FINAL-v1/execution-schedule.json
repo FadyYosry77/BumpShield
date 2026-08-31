@@ -1,0 +1,362 @@
+[
+  {
+    "case_id": "final-case-001",
+    "execution_position": 1,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-001",
+    "execution_position": 2,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-001",
+    "execution_position": 3,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-002",
+    "execution_position": 1,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-002",
+    "execution_position": 2,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-002",
+    "execution_position": 3,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-003",
+    "execution_position": 1,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-003",
+    "execution_position": 2,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-003",
+    "execution_position": 3,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-004",
+    "execution_position": 1,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-004",
+    "execution_position": 2,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-004",
+    "execution_position": 3,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-005",
+    "execution_position": 1,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-005",
+    "execution_position": 2,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-005",
+    "execution_position": 3,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-006",
+    "execution_position": 1,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-006",
+    "execution_position": 2,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-006",
+    "execution_position": 3,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-007",
+    "execution_position": 1,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-007",
+    "execution_position": 2,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-007",
+    "execution_position": 3,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-008",
+    "execution_position": 1,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-008",
+    "execution_position": 2,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-008",
+    "execution_position": 3,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-009",
+    "execution_position": 1,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-009",
+    "execution_position": 2,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-009",
+    "execution_position": 3,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-010",
+    "execution_position": 1,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-010",
+    "execution_position": 2,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-010",
+    "execution_position": 3,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-011",
+    "execution_position": 1,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-011",
+    "execution_position": 2,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-011",
+    "execution_position": 3,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-012",
+    "execution_position": 1,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-012",
+    "execution_position": 2,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-012",
+    "execution_position": 3,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-013",
+    "execution_position": 1,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-013",
+    "execution_position": 2,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-013",
+    "execution_position": 3,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-014",
+    "execution_position": 1,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-014",
+    "execution_position": 2,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-014",
+    "execution_position": 3,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-015",
+    "execution_position": 1,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-015",
+    "execution_position": 2,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-015",
+    "execution_position": 3,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-016",
+    "execution_position": 1,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-016",
+    "execution_position": 2,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-016",
+    "execution_position": 3,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-017",
+    "execution_position": 1,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-017",
+    "execution_position": 2,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-017",
+    "execution_position": 3,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-018",
+    "execution_position": 1,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-018",
+    "execution_position": 2,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-018",
+    "execution_position": 3,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-019",
+    "execution_position": 1,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-019",
+    "execution_position": 2,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-019",
+    "execution_position": 3,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-020",
+    "execution_position": 1,
+    "strategy": "direct-retry",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-020",
+    "execution_position": 2,
+    "strategy": "bumpshield",
+    "trial": 1
+  },
+  {
+    "case_id": "final-case-020",
+    "execution_position": 3,
+    "strategy": "direct-one-shot",
+    "trial": 1
+  }
+]

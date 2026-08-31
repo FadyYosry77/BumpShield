@@ -1,0 +1,59 @@
+{
+  "causal_dependency_retained": true,
+  "checks": [
+    {
+      "details": "requested upgraded target version retained",
+      "name": "TARGET_DEPENDENCY",
+      "status": "PASS"
+    },
+    {
+      "details": "causal dependency resolution retained",
+      "name": "CAUSAL_DEPENDENCY",
+      "status": "PASS"
+    },
+    {
+      "details": "Maven compile status: PASS",
+      "name": "COMPILE",
+      "status": "PASS"
+    },
+    {
+      "details": "Maven tests status: PASS",
+      "name": "TESTS",
+      "status": "PASS"
+    },
+    {
+      "details": "no test files deleted",
+      "name": "TEST_FILES",
+      "status": "PASS"
+    },
+    {
+      "details": "no new test disablement",
+      "name": "TEST_DISABLEMENT",
+      "status": "PASS"
+    },
+    {
+      "details": "no Maven test skipping introduced",
+      "name": "TEST_SKIPPING",
+      "status": "PASS"
+    },
+    {
+      "details": "patch scope: IN_SCOPE",
+      "name": "PATCH_SCOPE",
+      "status": "PASS"
+    },
+    {
+      "details": "no forbidden or suspicious deterministic patch findings",
+      "name": "PATCH_SAFETY",
+      "status": "PASS"
+    }
+  ],
+  "compilation_passed": true,
+  "patch_scope_acceptable": true,
+  "reasons": [],
+  "status": "VERIFIED_MIGRATION",
+  "target_dependency_retained": true,
+  "test_execution_not_skipped": true,
+  "tests_enabled": true,
+  "tests_passed": true,
+  "tests_preserved": true
+}

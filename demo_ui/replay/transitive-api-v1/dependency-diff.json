@@ -1,0 +1,44 @@
+{
+  "run_id": "514fde6deca84d35a040add5d329729a",
+  "target": {
+    "group_id": "com.bumpshield.finalfixture",
+    "artifact_id": "c011-core",
+    "expected_base_version": "1.0.0",
+    "resolved_base_version": "1.0.0",
+    "expected_updated_version": "2.0.0",
+    "resolved_updated_version": "2.0.0",
+    "matched": true
+  },
+  "changes": [
+    {
+      "kind": "UPDATED",
+      "relationship": "DIRECT",
+      "is_target": true,
+      "before": {
+        "group_id": "com.bumpshield.finalfixture",
+        "artifact_id": "c011-core",
+        "version": "1.0.0"
+      },
+      "after": {
+        "group_id": "com.bumpshield.finalfixture",
+        "artifact_id": "c011-core",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "kind": "UPDATED",
+      "relationship": "TRANSITIVE",
+      "is_target": false,
+      "before": {
+        "group_id": "com.bumpshield.finalfixture",
+        "artifact_id": "c011-legacy-api",
+        "version": "1.0.0"
+      },
+      "after": {
+        "group_id": "com.bumpshield.finalfixture",
+        "artifact_id": "c011-legacy-api",
+        "version": "2.0.0"
+      }
+    }
+  ]
+}

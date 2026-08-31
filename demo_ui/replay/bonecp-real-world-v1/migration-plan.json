@@ -1,0 +1,84 @@
+{
+  "plan_id": "P-EF4DF28FBC",
+  "run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "status": "PLAN_READY",
+  "diagnosis_status": "SUPPORTED_DIAGNOSIS",
+  "hypothesis_id": "H-5388E6ACD6",
+  "migration_kind": "REMOVED_METHOD",
+  "summary": "Plan a two-file migration away from Objects.toStringHelper(...).",
+  "target_upgrade": {
+    "group_id": "com.google.guava",
+    "artifact_id": "guava",
+    "old_version": "15.0",
+    "new_version": "21.0"
+  },
+  "affected_dependency": {
+    "kind": "UPDATED",
+    "relationship": "DIRECT",
+    "before": {
+      "group_id": "com.google.guava",
+      "artifact_id": "guava",
+      "version": "15.0"
+    },
+    "after": {
+      "group_id": "com.google.guava",
+      "artifact_id": "guava",
+      "version": "21.0"
+    }
+  },
+  "affected_class": "com.google.common.base.Objects",
+  "affected_member": "toStringHelper(com.jolbox.bonecp.ConnectionHandle)",
+  "old_api": [
+    {
+      "kind": "METHOD",
+      "name": "toStringHelper",
+      "declaration": "public static com.google.common.base.Objects$ToStringHelper toStringHelper(java.lang.Object);"
+    }
+  ],
+  "new_api_candidates": [],
+  "primary_source_location": {
+    "file": "bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java",
+    "line": 1711,
+    "kind": "PRIMARY_FAILURE"
+  },
+  "affected_source_locations": [
+    {
+      "file": "bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java",
+      "line": 1711,
+      "kind": "PRIMARY_FAILURE"
+    },
+    {
+      "file": "bonecp/src/main/java/com/jolbox/bonecp/ConnectionPartition.java",
+      "line": 314,
+      "kind": "POTENTIAL_CALL_SITE"
+    }
+  ],
+  "allowed_files": [
+    "bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java",
+    "bonecp/src/main/java/com/jolbox/bonecp/ConnectionPartition.java"
+  ],
+  "required_outcome": "Project source must stop relying on Objects.toStringHelper(...) while remaining compatible with Guava 21.0.",
+  "constraints": [
+    "TARGET_VERSION_MUST_REMAIN",
+    "TARGET_DEPENDENCY_MUST_REMAIN",
+    "CAUSAL_DEPENDENCY_NO_DOWNGRADE",
+    "NO_TEST_DELETION",
+    "NO_TEST_DISABLEMENT",
+    "NO_TEST_SKIP_CONFIGURATION",
+    "NO_FUNCTIONALITY_REMOVAL",
+    "MINIMAL_PATCH",
+    "NO_UNRELATED_CHANGES"
+  ],
+  "verification_requirements": [
+    "TARGET_VERSION_RETAINED",
+    "TARGET_DEPENDENCY_PRESENT",
+    "COMPILE_PASSES",
+    "TESTS_PASS",
+    "TESTS_RETAINED",
+    "TESTS_ENABLED",
+    "PATCH_SCOPE_ACCEPTABLE"
+  ],
+  "scope": "SMALL",
+  "cautious_repair": false
+}
+

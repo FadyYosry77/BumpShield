@@ -1,0 +1,25 @@
+{
+  "project": "BoneCP",
+  "upstream_repository": "https://github.com/wwadge/bonecp.git",
+  "upstream_commit": "2ea6baad5c5e0751856c00dd7633b1b767249ea2",
+  "upstream_tag": "bonecp-parent-0.8.0.RELEASE",
+  "upstream_license": "Apache License 2.0",
+  "showcase_type": "CONSTRUCTED_UPGRADE",
+  "scope": "REAL_OPEN_SOURCE_PROJECT",
+  "benchmark_membership": "NOT_PART_OF_BUMP_FINAL_V1",
+  "base_showcase_commit": "cfdb82af09db010f9d1925af2f3f2910329ebce9",
+  "updated_showcase_commit": "d766e34a08d4e5fd66fbcddebfd4e7e8073dea91",
+  "target_dependency": {
+    "group_id": "com.google.guava",
+    "artifact_id": "guava",
+    "old_version": "15.0",
+    "new_version": "21.0"
+  },
+  "base_result": "197 tests PASS; 0 failures; 0 errors; 3 pre-existing skips",
+  "updated_result": "FAIL: two missing Objects.toStringHelper(...) symbols",
+  "causal_api_evidence": "REMOVED_MEMBER in com.google.common.base.Objects",
+  "repair_run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "final_bumpshield_status": "VERIFIED_MIGRATION",
+  "original_showcase_repository_unchanged": true
+}
+

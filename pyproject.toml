@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bumpshield"
+version = "0.1.0"
+description = "Causal dependency migration agent for Java and Maven projects"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+demo = ["streamlit>=1.57"]
+
+[project.scripts]
+bumpshield = "bumpshield.cli:main"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["bumpshield*", "demo_ui*"]

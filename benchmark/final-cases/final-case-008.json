@@ -1,0 +1,43 @@
+{
+  "case_type": "DIRECT",
+  "description": "Controlled direct removed class migration",
+  "ground_truth": {
+    "breaking_dependency": {
+      "artifact_id": "c008-api",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "2.0.0",
+      "old_version": "1.0.0"
+    },
+    "class": "com.bumpshield.finalfixture.c008.legacy.LegacyIdentifier",
+    "failure_kind": "REMOVED_CLASS",
+    "member": null
+  },
+  "id": "final-case-008",
+  "provenance": {
+    "ground_truth_basis": "Controlled old/new source, Maven dependency tree, compiler diagnostic, and javap comparison.",
+    "license": null,
+    "project_name": "final-case-008",
+    "repository_url": null,
+    "source_commit": null,
+    "upgrade_origin": "CONSTRUCTED"
+  },
+  "source": "SYNTHETIC_FIXTURE",
+  "split": "FINAL",
+  "tags": [
+    "direct",
+    "removed-class",
+    "synthetic",
+    "constructed-upgrade"
+  ],
+  "task": {
+    "base_commit": "84ee4ce4e14e9100189fc105c45d38d090ca7f97",
+    "repository": "../final-runtime/final-case-008/application",
+    "target_dependency": {
+      "artifact_id": "c008-api",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "2.0.0",
+      "old_version": "1.0.0"
+    },
+    "updated_commit": "517cf96929fb01532e1860637c800099d6b77419"
+  }
+}

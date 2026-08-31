@@ -1,0 +1,13 @@
+{
+  "source_run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "target_matched": true,
+  "relationship": "DIRECT",
+  "change": {
+    "kind": "UPDATED",
+    "group_id": "com.google.guava",
+    "artifact_id": "guava",
+    "before": "15.0",
+    "after": "21.0"
+  }
+}
+

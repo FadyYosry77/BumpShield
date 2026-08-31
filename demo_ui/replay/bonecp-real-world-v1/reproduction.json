@@ -1,0 +1,22 @@
+{
+  "run_id": "47c5e24b86e943138886a4fd70bbfc80",
+  "status": "CONFIRMED",
+  "base": {
+    "commit": "cfdb82af09db010f9d1925af2f3f2910329ebce9",
+    "command": "./mvnw -B test",
+    "status": "PASS",
+    "tests": {
+      "tests": 197,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 3
+    }
+  },
+  "updated": {
+    "commit": "d766e34a08d4e5fd66fbcddebfd4e7e8073dea91",
+    "command": "./mvnw -B test",
+    "status": "FAIL",
+    "reason": "two missing Objects.toStringHelper(...) symbols"
+  }
+}
+

@@ -1,0 +1,37 @@
+{
+  "run_id": "514fde6deca84d35a040add5d329729a",
+  "status": "SUPPORTED_DIAGNOSIS",
+  "primary_hypothesis_id": "H-B4502CF840",
+  "kind": "REMOVED_MEMBER",
+  "summary": "com.bumpshield.finalfixture:c011-legacy-api removed trimRecord(java.lang.String)",
+  "evidence_strength": "VERY_STRONG",
+  "evidence_score": 100,
+  "explanation": "The deterministic evidence strongly supports that com.bumpshield.finalfixture:c011-legacy-api removed trimRecord(java.lang.String).",
+  "causal_chain": [
+    {
+      "order": 1,
+      "kind": "TARGET_UPGRADE",
+      "description": "requested target com.bumpshield.finalfixture:c011-core changed from 1.0.0 to 2.0.0"
+    },
+    {
+      "order": 2,
+      "kind": "DEPENDENCY_RESOLUTION_CHANGE",
+      "description": "com.bumpshield.finalfixture:c011-legacy-api changed 1.0.0 to 2.0.0 (TRANSITIVE)"
+    },
+    {
+      "order": 3,
+      "kind": "API_CHANGE",
+      "description": "trimRecord(java.lang.String) is present before and absent after the dependency change"
+    },
+    {
+      "order": 4,
+      "kind": "PROJECT_USAGE",
+      "description": "project source at src/main/java/com/bumpshield/finalfixture/c011/app/MigrationClient011.java:9 uses trimRecord(java.lang.String)"
+    },
+    {
+      "order": 5,
+      "kind": "OBSERVED_FAILURE",
+      "description": "MISSING_SYMBOL: trimRecord(java.lang.String)"
+    }
+  ]
+}

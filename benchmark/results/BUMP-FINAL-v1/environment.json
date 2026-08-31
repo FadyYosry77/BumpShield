@@ -1,0 +1,10 @@
+{
+  "bumpshield_commit": null,
+  "bumpshield_version": "0.1.0",
+  "codex": "codex-cli 0.151.0",
+  "git": "git version 2.43.0",
+  "java": "openjdk version \"21.0.12.1\" 2026-08-18 LTS",
+  "maven": "Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)",
+  "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]"
+}

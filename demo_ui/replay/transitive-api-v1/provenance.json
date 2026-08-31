@@ -1,0 +1,46 @@
+{
+  "replay_bundle_id": "bump-final-c011-transitive-api-v1",
+  "source_run_type": "REAL_VERIFIED_BENCHMARK_TRIAL",
+  "source_run_id": "514fde6deca84d35a040add5d329729a",
+  "recorded_at": "2026-08-30",
+  "fixture": "BUMP-FINAL-v1 final-case-011",
+  "source_report": "benchmark/results/BUMP-FINAL-v1/final-research-results.md",
+  "target_dependency": {
+    "group_id": "com.bumpshield.finalfixture",
+    "artifact_id": "c011-core",
+    "old_version": "1.0.0",
+    "new_version": "2.0.0"
+  },
+  "causal_dependency": {
+    "group_id": "com.bumpshield.finalfixture",
+    "artifact_id": "c011-legacy-api",
+    "old_version": "1.0.0",
+    "new_version": "2.0.0"
+  },
+  "original_final_status": "VERIFIED_MIGRATION",
+  "attempt_count": 1,
+  "test_count": 1,
+  "original_repository_unchanged": true,
+  "sanitization_status": "Portable presentation copy. patch.diff, verification.json, and migration-report.txt are byte-identical to the recorded run. Other JSON files are compact semantic extracts from recorded artifacts with absolute temporary paths and timing noise removed.",
+  "toolchain": {
+    "Python": "3.12.3",
+    "Git": "2.43.0",
+    "Java": "21.0.12.1",
+    "Maven": "3.9.16",
+    "Codex CLI": "0.151.0"
+  },
+  "bundle_hash": "69914949ba4de8ff272afbe85fc677109c265d9b2785d9f119c83b31a7c886a6",
+  "artifact_hashes": {
+    "api-evidence.json": "5fe9e6c648f8901689d322b7ed16b0c99441f6502ed84ff8b4bef47fac9b704a",
+    "dependency-diff.json": "ced175d97b267ed51e8aaf3bac7c746651b95e5505d96c38abfc6a18ab2ae733",
+    "diagnosis.json": "0d524740b0db4726b0702464eac5a6ef6fe10dc168ebcdd43d47cb043298fadb",
+    "execution.json": "ea51b28ea50ca200140c83d71642b17bdc22997dfd4e766cb85e2bbd5298b689",
+    "failure.json": "956be0fe3e03734d782f13d0732b257110bd4aadc38e1d8a68e4a37773268fed",
+    "manifest.json": "d588fae3de8e2156825c79afe545a982f5a4b3496aad29e17abfe6d59c21b355",
+    "migration-plan.json": "2aa81abec577f00e1e3f14f039b74945c93a856aadcd0a6bbf8790f06e1fbab9",
+    "migration-report.txt": "e2a207e647c01eae9b4ef5bb17a2387b7fea7f2574842e21a8a3e2d2bd41cee0",
+    "patch.diff": "e53606af387e21bddfdf44ead4612262178a5f01264475a9249ede2295ba24ac",
+    "reproduction.json": "a7481ef73f79b615c54b1e9f65acbd422bc3b579c8d27d831129aef3f84e6f5b",
+    "verification.json": "26afb3f83ef8d9dce97573b663905f8fae8c3516b2059d7f17669ca42225f04f"
+  }
+}

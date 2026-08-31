@@ -1,0 +1,43 @@
+{
+  "case_type": "TRANSITIVE",
+  "description": "Controlled transitive changed method signature migration",
+  "ground_truth": {
+    "breaking_dependency": {
+      "artifact_id": "c012-legacy-api",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "2.0.0",
+      "old_version": "1.0.0"
+    },
+    "class": "com.bumpshield.finalfixture.c012.legacy.SequenceReverser",
+    "failure_kind": "CHANGED_METHOD_SIGNATURE",
+    "member": "reverse(java.lang.String)"
+  },
+  "id": "final-case-012",
+  "provenance": {
+    "ground_truth_basis": "Controlled old/new source, Maven dependency tree, compiler diagnostic, and javap comparison.",
+    "license": null,
+    "project_name": "final-case-012",
+    "repository_url": null,
+    "source_commit": null,
+    "upgrade_origin": "CONSTRUCTED"
+  },
+  "source": "SYNTHETIC_FIXTURE",
+  "split": "FINAL",
+  "tags": [
+    "transitive",
+    "changed-method-signature",
+    "synthetic",
+    "constructed-upgrade"
+  ],
+  "task": {
+    "base_commit": "76befc43b9bdfae276ac7919c4945070469017d5",
+    "repository": "../final-runtime/final-case-012/application",
+    "target_dependency": {
+      "artifact_id": "c012-core",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "2.0.0",
+      "old_version": "1.0.0"
+    },
+    "updated_commit": "e9f8e53828d6d6655d7ed28961739fdb7ee706b9"
+  }
+}

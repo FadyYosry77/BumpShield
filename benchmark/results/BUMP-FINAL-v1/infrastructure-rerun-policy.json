@@ -1,0 +1,9 @@
+{
+  "affected_trials": [34, 60],
+  "archive": "infrastructure-invalidated/missing-temporary-toolchain-20260830",
+  "cause": "Temporary external Java, Maven, Codex, and Maven-repository paths disappeared between resumptions. A login-shell resume therefore used Codex 0.132.0 and had no mvn executable.",
+  "original_outcome": "Trials 34 through 60 were recorded INVALID_CASE without provider calls because Maven could not execute.",
+  "primary_analysis": "Use replacement results for trials 34 through 60. Preserve archived originals as infrastructure-invalidated evidence.",
+  "replacement_policy": "Restore exact Java 21.0.12.1, Maven 3.9.16, and Codex CLI 0.151.0 in stable external paths; rebuild the controlled Maven cache from frozen library sources; resume only missing affected rows without --rerun.",
+  "unaffected_trials": [1, 33]
+}

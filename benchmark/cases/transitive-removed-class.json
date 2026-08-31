@@ -1,0 +1,30 @@
+{
+  "id": "transitive-removed-class",
+  "description": "facade-lib upgrade transitively removes LegacyFormatter from format-lib",
+  "task": {
+    "repository": "../runtime/transitive-removed-class/application",
+    "base_commit": "base",
+    "updated_commit": "updated",
+    "target_dependency": {
+      "group_id": "com.bumpshield.fixture",
+      "artifact_id": "facade-lib",
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    }
+  },
+  "case_type": "TRANSITIVE",
+  "source": "SYNTHETIC_FIXTURE",
+  "split": "DEV",
+  "ground_truth": {
+    "breaking_dependency": {
+      "group_id": "com.bumpshield.fixture",
+      "artifact_id": "format-lib",
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    },
+    "failure_kind": "REMOVED_CLASS",
+    "class": "com.bumpshield.fixture.format.LegacyFormatter",
+    "member": null
+  },
+  "tags": ["transitive", "removed-class", "synthetic"]
+}

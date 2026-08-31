@@ -1,0 +1,30 @@
+{
+  "replay_schema_version": 1,
+  "replay_bundle_id": "bonecp-guava-real-world-v1",
+  "title": "BoneCP Guava 15 to 21 migration",
+  "artifacts": {
+    "api_evidence": "api-evidence.json",
+    "dependency_diff": "dependency-diff.json",
+    "diagnosis": "diagnosis.json",
+    "execution": "execution.json",
+    "failure": "failure.json",
+    "migration_plan": "migration-plan.json",
+    "migration_report": "migration-report.txt",
+    "patch": "patch.diff",
+    "reproduction": "reproduction.json",
+    "verification": "verification.json"
+  },
+  "stage_order": [
+    "Regression",
+    "Dependency Diff",
+    "Failure Localization",
+    "API Evidence",
+    "Causal Diagnosis",
+    "Migration Plan",
+    "AI Repair",
+    "Compile",
+    "Tests",
+    "Independent Verification"
+  ]
+}
+

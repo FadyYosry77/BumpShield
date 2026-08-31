@@ -1,0 +1,21 @@
+{
+  "category": "MISSING_SYMBOL",
+  "file": "bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java",
+  "line": 1711,
+  "column": 31,
+  "symbol": "toStringHelper(com.jolbox.bonecp.ConnectionHandle)",
+  "location": "class com.google.common.base.Objects",
+  "message": "cannot find symbol",
+  "source_context": [
+    {"number": 1707, "text": "\tpublic String toString(){"},
+    {"number": 1708, "text": ""},
+    {"number": 1709, "text": "\t\tlong timeMillis = System.currentTimeMillis();"},
+    {"number": 1710, "text": ""},
+    {"number": 1711, "text": "\t\treturn Objects.toStringHelper(this)"},
+    {"number": 1712, "text": "\t\t\t\t.add(\"url\", this.pool.getConfig().getJdbcUrl())"},
+    {"number": 1713, "text": "\t\t\t\t.add(\"user\", this.pool.getConfig().getUsername())"},
+    {"number": 1714, "text": "\t\t\t\t.add(\"debugHandle\", this.debugHandle)"},
+    {"number": 1718, "text": "\t\t\t\t.toString();"}
+  ]
+}
+

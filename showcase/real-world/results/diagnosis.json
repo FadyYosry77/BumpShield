@@ -1,0 +1,15 @@
+{
+  "source_run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "status": "SUPPORTED_DIAGNOSIS",
+  "kind": "REMOVED_MEMBER",
+  "summary": "com.google.guava:guava removed toStringHelper(com.jolbox.bonecp.ConnectionHandle)",
+  "evidence_strength": "VERY_STRONG",
+  "evidence_score": 100,
+  "causal_chain": [
+    "Guava changed from 15.0 to 21.0 as the requested direct upgrade",
+    "Objects.toStringHelper(...) is present before and absent after",
+    "BoneCP production source still calls the removed member",
+    "Maven reports two MISSING_SYMBOL failures at those call sites"
+  ]
+}
+

@@ -1,0 +1,30 @@
+{
+  "run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "target": {
+    "group_id": "com.google.guava",
+    "artifact_id": "guava",
+    "expected_base_version": "15.0",
+    "resolved_base_version": "15.0",
+    "expected_updated_version": "21.0",
+    "resolved_updated_version": "21.0",
+    "matched": true
+  },
+  "changes": [
+    {
+      "kind": "UPDATED",
+      "relationship": "DIRECT",
+      "is_target": true,
+      "before": {
+        "group_id": "com.google.guava",
+        "artifact_id": "guava",
+        "version": "15.0"
+      },
+      "after": {
+        "group_id": "com.google.guava",
+        "artifact_id": "guava",
+        "version": "21.0"
+      }
+    }
+  ]
+}
+

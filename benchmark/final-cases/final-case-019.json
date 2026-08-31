@@ -1,0 +1,43 @@
+{
+  "case_type": "TRANSITIVE",
+  "description": "Controlled transitive removed dependency migration",
+  "ground_truth": {
+    "breaking_dependency": {
+      "artifact_id": "c019-legacy-api",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "REMOVED",
+      "old_version": "1.0.0"
+    },
+    "class": "com.bumpshield.finalfixture.c019.legacy.LegacyPath",
+    "failure_kind": "REMOVED_DEPENDENCY",
+    "member": null
+  },
+  "id": "final-case-019",
+  "provenance": {
+    "ground_truth_basis": "Controlled old/new source, Maven dependency tree, compiler diagnostic, and javap comparison.",
+    "license": null,
+    "project_name": "final-case-019",
+    "repository_url": null,
+    "source_commit": null,
+    "upgrade_origin": "CONSTRUCTED"
+  },
+  "source": "SYNTHETIC_FIXTURE",
+  "split": "FINAL",
+  "tags": [
+    "transitive",
+    "removed-dependency",
+    "synthetic",
+    "constructed-upgrade"
+  ],
+  "task": {
+    "base_commit": "b839175cd7cfe4ccf11b4bac1076947ff2d9e10e",
+    "repository": "../final-runtime/final-case-019/application",
+    "target_dependency": {
+      "artifact_id": "c019-core",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "2.0.0",
+      "old_version": "1.0.0"
+    },
+    "updated_commit": "90079cf3c74b41ec41812dd6af35741ddd5b4510"
+  }
+}

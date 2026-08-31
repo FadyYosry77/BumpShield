@@ -1,0 +1,1720 @@
+{
+  "attempted_trials": 60,
+  "benchmark_run_id": "299751febab64a96a891fd9f2f2954c9",
+  "by_failure_type": [
+    [
+      "CHANGED_METHOD_SIGNATURE",
+      [
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.576677578750008,
+            "median": 1.5853758094999648
+          },
+          "diagnosis_success_rate": 1.0,
+          "diagnosis_time_seconds": {
+            "mean": 8.291677141750313,
+            "median": 8.360818359000405
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 3.75,
+            "median": 3.0
+          },
+          "patch_size_verified": {
+            "mean": 3.75,
+            "median": 3.0
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 75.74788840425057,
+            "median": 75.91752391450063
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 89.44101966450046,
+            "median": 89.80233848150056
+          },
+          "strategy": "bumpshield",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.230661334249902,
+            "median": 2.2441021069998897
+          },
+          "time_to_verified_seconds": {
+            "mean": 89.44101966450046,
+            "median": 89.80233848150056
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.5552227025000604,
+            "median": 1.5611307440003657
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 3.75,
+            "median": 3.0
+          },
+          "patch_size_verified": {
+            "mean": 3.75,
+            "median": 3.0
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 73.82086884624994,
+            "median": 69.0622403934999
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 80.75330433649998,
+            "median": 76.03614646349979
+          },
+          "strategy": "direct-one-shot",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.190903068999802,
+            "median": 2.196357748000082
+          },
+          "time_to_verified_seconds": {
+            "mean": 80.75330433649998,
+            "median": 76.03614646349979
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.5719554120002783,
+            "median": 1.5847719805005909
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 3.75,
+            "median": 3.0
+          },
+          "patch_size_verified": {
+            "mean": 3.75,
+            "median": 3.0
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 69.25679163524995,
+            "median": 66.97653862649986
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 76.22621926425009,
+            "median": 74.05111498300084
+          },
+          "strategy": "direct-retry",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.237903787499505,
+            "median": 2.2379520289996435
+          },
+          "time_to_verified_seconds": {
+            "mean": 76.22621926425009,
+            "median": 74.05111498300084
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        }
+      ]
+    ],
+    [
+      "REMOVED_CLASS",
+      [
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.6311928669993563,
+            "median": 1.6060207909986275
+          },
+          "diagnosis_success_rate": 1.0,
+          "diagnosis_time_seconds": {
+            "mean": 7.937444462500366,
+            "median": 8.001679424500821
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 8.5,
+            "median": 8.5
+          },
+          "patch_size_verified": {
+            "mean": 8.5,
+            "median": 8.5
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 78.94308227774968,
+            "median": 79.15596032150006
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 92.46596278474993,
+            "median": 92.6921810660001
+          },
+          "strategy": "bumpshield",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.2647484622499405,
+            "median": 2.2557965469995906
+          },
+          "time_to_verified_seconds": {
+            "mean": 92.46596278474993,
+            "median": 92.6921810660001
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.4913202872497209,
+            "median": 1.5512871834995394
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 8.5,
+            "median": 8.5
+          },
+          "patch_size_verified": {
+            "mean": 8.5,
+            "median": 8.5
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 79.7559079545,
+            "median": 77.04283195250002
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 86.78316761375007,
+            "median": 84.41096520950032
+          },
+          "strategy": "direct-one-shot",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.2132447017494883,
+            "median": 2.3080934149996892
+          },
+          "time_to_verified_seconds": {
+            "mean": 86.78316761375007,
+            "median": 84.41096520950032
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.5690396115000453,
+            "median": 1.5604840909999211
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 8.5,
+            "median": 8.5
+          },
+          "patch_size_verified": {
+            "mean": 8.5,
+            "median": 8.5
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 96.57087139449976,
+            "median": 96.51459975349985
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 103.53356137625005,
+            "median": 103.39096250150004
+          },
+          "strategy": "direct-retry",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.2073262002497813,
+            "median": 2.2124032500000794
+          },
+          "time_to_verified_seconds": {
+            "mean": 103.53356137625005,
+            "median": 103.39096250150004
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        }
+      ]
+    ],
+    [
+      "REMOVED_DEPENDENCY",
+      [
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.5,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.1169176742500895,
+            "median": 1.4293595310000455
+          },
+          "diagnosis_success_rate": 1.0,
+          "diagnosis_time_seconds": {
+            "mean": 8.100065123749914,
+            "median": 8.127039846499883
+          },
+          "execution_errors": 0,
+          "failure_reasons": [
+            [
+              "PROVIDER_FAILED",
+              1
+            ]
+          ],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.25,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 6.0,
+            "median": 7.0
+          },
+          "patch_size_verified": {
+            "mean": 8.0,
+            "median": 7.0
+          },
+          "provider_available_trials": 3,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 6,
+          "provider_calls_per_verified": 2.0,
+          "provider_failure_rate": 0.25,
+          "provider_failures": 1,
+          "provider_quota_failures": 1,
+          "provider_time_seconds": {
+            "mean": 71.19532049624979,
+            "median": 78.60950157299976
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 83.22847212049987,
+            "median": 91.72167382349971
+          },
+          "strategy": "bumpshield",
+          "strict_vrr": 0.75,
+          "test_time_seconds": {
+            "mean": 1.5900011812498178,
+            "median": 2.0399385554997025
+          },
+          "time_to_verified_seconds": {
+            "mean": 100.73576267033316,
+            "median": 107.6315237079998
+          },
+          "unresolved": 1,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 3,
+          "vrr": 0.75
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.6561569272498673,
+            "median": 1.6228759494997576
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 8.25,
+            "median": 8.0
+          },
+          "patch_size_verified": {
+            "mean": 8.25,
+            "median": 8.0
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 102.11732112924994,
+            "median": 106.11720680849976
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 109.4534756290002,
+            "median": 113.7074722540001
+          },
+          "strategy": "direct-one-shot",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.3352914859998464,
+            "median": 2.304857931999777
+          },
+          "time_to_verified_seconds": {
+            "mean": 109.4534756290002,
+            "median": 113.7074722540001
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.5348701970002594,
+            "median": 1.6147350225000991
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 8.5,
+            "median": 8.5
+          },
+          "patch_size_verified": {
+            "mean": 8.5,
+            "median": 8.5
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 91.8796123295001,
+            "median": 93.46912965299998
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 98.95065409874996,
+            "median": 100.35432237450004
+          },
+          "strategy": "direct-retry",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.1884710914999914,
+            "median": 2.2554944825001257
+          },
+          "time_to_verified_seconds": {
+            "mean": 98.95065409874996,
+            "median": 100.35432237450004
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        }
+      ]
+    ],
+    [
+      "REMOVED_METHOD",
+      [
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.5,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.1689338659998612,
+            "median": 1.5363196979997156
+          },
+          "diagnosis_success_rate": 1.0,
+          "diagnosis_time_seconds": {
+            "mean": 8.168662710250373,
+            "median": 8.152108864000638
+          },
+          "execution_errors": 0,
+          "failure_reasons": [
+            [
+              "PROVIDER_FAILED",
+              1
+            ]
+          ],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.25,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 3.75,
+            "median": 4.5
+          },
+          "patch_size_verified": {
+            "mean": 5.0,
+            "median": 6.0
+          },
+          "provider_available_trials": 3,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 6,
+          "provider_calls_per_verified": 2.0,
+          "provider_failure_rate": 0.25,
+          "provider_failures": 1,
+          "provider_quota_failures": 1,
+          "provider_time_seconds": {
+            "mean": 70.46780025425028,
+            "median": 71.80838356950062
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 82.62995757299996,
+            "median": 85.43157064049956
+          },
+          "strategy": "bumpshield",
+          "strict_vrr": 0.75,
+          "test_time_seconds": {
+            "mean": 1.638368016999948,
+            "median": 2.1511552995002603
+          },
+          "time_to_verified_seconds": {
+            "mean": 92.34271074633307,
+            "median": 89.3119840039999
+          },
+          "unresolved": 1,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 3,
+          "vrr": 0.75
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.5771707615003834,
+            "median": 1.5645000825006719
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 4.75,
+            "median": 5.0
+          },
+          "patch_size_verified": {
+            "mean": 4.75,
+            "median": 5.0
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 79.73191628175005,
+            "median": 81.32168573350009
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 86.76766509175013,
+            "median": 88.2680007920003
+          },
+          "strategy": "direct-one-shot",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.2095708090002972,
+            "median": 2.1988501075002205
+          },
+          "time_to_verified_seconds": {
+            "mean": 86.76766509175013,
+            "median": 88.2680007920003
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.4604313089996594,
+            "median": 1.530732989000171
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 5.25,
+            "median": 6.0
+          },
+          "patch_size_verified": {
+            "mean": 5.25,
+            "median": 6.0
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 72.17661674024976,
+            "median": 72.78722598449986
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 78.86364945700007,
+            "median": 79.40363350750022
+          },
+          "strategy": "direct-retry",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.100797839499819,
+            "median": 2.1488017859996944
+          },
+          "time_to_verified_seconds": {
+            "mean": 78.86364945700007,
+            "median": 79.40363350750022
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        }
+      ]
+    ],
+    [
+      "REMOVED_PACKAGE",
+      [
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.5393970615006651,
+            "median": 1.5942065730008608
+          },
+          "diagnosis_success_rate": 1.0,
+          "diagnosis_time_seconds": {
+            "mean": 8.067483581000374,
+            "median": 8.064492470000914
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 2.0,
+            "median": 2.0
+          },
+          "patch_size_verified": {
+            "mean": 2.0,
+            "median": 2.0
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 58.31784377500014,
+            "median": 60.775431917500214
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 71.68809495049936,
+            "median": 74.2635018744993
+          },
+          "strategy": "bumpshield",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.176265596000121,
+            "median": 2.2704089675004298
+          },
+          "time_to_verified_seconds": {
+            "mean": 71.68809495049936,
+            "median": 74.2635018744993
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.5063432129999228,
+            "median": 1.589836999999875
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 2.0,
+            "median": 2.0
+          },
+          "patch_size_verified": {
+            "mean": 2.0,
+            "median": 2.0
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 82.0513353684999,
+            "median": 80.65840541700015
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 88.99826348575027,
+            "median": 87.35450600150023
+          },
+          "strategy": "direct-one-shot",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.151443809999762,
+            "median": 2.2358890369996516
+          },
+          "time_to_verified_seconds": {
+            "mean": 88.99826348575027,
+            "median": 87.35450600150023
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        },
+        {
+          "attempted_valid": 4,
+          "attempts": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "attempts_verified": {
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "compile_time_seconds": {
+            "mean": 1.5872636307499874,
+            "median": 1.5822257859999809
+          },
+          "diagnosis_success_rate": null,
+          "diagnosis_time_seconds": {
+            "mean": null,
+            "median": null
+          },
+          "execution_errors": 0,
+          "failure_reasons": [],
+          "human_review": 0,
+          "infrastructure_failure_rate": 0.0,
+          "infrastructure_failures": 0,
+          "out_of_scope_rate": 0.0,
+          "patch_size": {
+            "mean": 2.0,
+            "median": 2.0
+          },
+          "patch_size_verified": {
+            "mean": 2.0,
+            "median": 2.0
+          },
+          "provider_available_trials": 4,
+          "provider_available_vrr": 1.0,
+          "provider_calls": 4,
+          "provider_calls_per_verified": 1.0,
+          "provider_failure_rate": 0.0,
+          "provider_failures": 0,
+          "provider_quota_failures": 0,
+          "provider_time_seconds": {
+            "mean": 78.15916634425031,
+            "median": 77.23791175350038
+          },
+          "provider_timeouts": 0,
+          "provider_unknown_failures": 0,
+          "repair_failure_rate": 0.0,
+          "repair_failures": 0,
+          "repair_time_seconds": {
+            "mean": 85.24454282299973,
+            "median": 84.32633534050012
+          },
+          "strategy": "direct-retry",
+          "strict_vrr": 1.0,
+          "test_time_seconds": {
+            "mean": 2.254676972749678,
+            "median": 2.2527590854996333
+          },
+          "time_to_verified_seconds": {
+            "mean": 85.24454282299973,
+            "median": 84.32633534050012
+          },
+          "unresolved": 0,
+          "verification_failures": 0,
+          "verification_rejection_rate": 0.0,
+          "verified": 4,
+          "vrr": 1.0
+        }
+      ]
+    ]
+  ],
+  "comparison": {
+    "direct_retry_gain_over_one_shot": 0.0,
+    "matched_retry_vrr_difference": -0.09999999999999998,
+    "mean_attempt_difference": 0.19999999999999996,
+    "mean_patch_size_difference": -0.6500000000000004,
+    "mean_runtime_seconds_difference": -6.660473812700218,
+    "vrr_difference": -0.09999999999999998
+  },
+  "completed_trials": 60,
+  "direct": [
+    {
+      "attempted_valid": 10,
+      "attempts": {
+        "mean": 1.2,
+        "median": 1.0
+      },
+      "attempts_verified": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "compile_time_seconds": {
+        "mean": 1.3893062294999254,
+        "median": 1.569125143000747
+      },
+      "diagnosis_success_rate": 1.0,
+      "diagnosis_time_seconds": {
+        "mean": 8.180007412000668,
+        "median": 8.154297838000275
+      },
+      "execution_errors": 0,
+      "failure_reasons": [
+        [
+          "PROVIDER_FAILED",
+          1
+        ]
+      ],
+      "human_review": 0,
+      "infrastructure_failure_rate": 0.1,
+      "infrastructure_failures": 0,
+      "out_of_scope_rate": 0.0,
+      "patch_size": {
+        "mean": 4.2,
+        "median": 3.0
+      },
+      "patch_size_verified": {
+        "mean": 4.666666666666667,
+        "median": 3.0
+      },
+      "provider_available_trials": 9,
+      "provider_available_vrr": 1.0,
+      "provider_calls": 12,
+      "provider_calls_per_verified": 1.3333333333333333,
+      "provider_failure_rate": 0.1,
+      "provider_failures": 1,
+      "provider_quota_failures": 1,
+      "provider_time_seconds": {
+        "mean": 71.38557365550014,
+        "median": 75.89290524500029
+      },
+      "provider_timeouts": 0,
+      "provider_unknown_failures": 0,
+      "repair_failure_rate": 0.0,
+      "repair_failures": 0,
+      "repair_time_seconds": {
+        "mean": 84.35248535009995,
+        "median": 89.50802269650012
+      },
+      "strategy": "bumpshield",
+      "strict_vrr": 0.9,
+      "test_time_seconds": {
+        "mean": 1.9668185440000343,
+        "median": 2.2209209675002057
+      },
+      "time_to_verified_seconds": {
+        "mean": 87.78146171644433,
+        "median": 89.70406138900034
+      },
+      "unresolved": 1,
+      "verification_failures": 0,
+      "verification_rejection_rate": 0.0,
+      "verified": 9,
+      "vrr": 0.9
+    },
+    {
+      "attempted_valid": 10,
+      "attempts": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "attempts_verified": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "compile_time_seconds": {
+        "mean": 1.5450798145999216,
+        "median": 1.5763668589997906
+      },
+      "diagnosis_success_rate": null,
+      "diagnosis_time_seconds": {
+        "mean": null,
+        "median": null
+      },
+      "execution_errors": 0,
+      "failure_reasons": [],
+      "human_review": 0,
+      "infrastructure_failure_rate": 0.0,
+      "infrastructure_failures": 0,
+      "out_of_scope_rate": 0.0,
+      "patch_size": {
+        "mean": 4.6,
+        "median": 4.0
+      },
+      "patch_size_verified": {
+        "mean": 4.6,
+        "median": 4.0
+      },
+      "provider_available_trials": 10,
+      "provider_available_vrr": 1.0,
+      "provider_calls": 10,
+      "provider_calls_per_verified": 1.0,
+      "provider_failure_rate": 0.0,
+      "provider_failures": 0,
+      "provider_quota_failures": 0,
+      "provider_time_seconds": {
+        "mean": 73.93051380769994,
+        "median": 72.10626669299972
+      },
+      "provider_timeouts": 0,
+      "provider_unknown_failures": 0,
+      "repair_failure_rate": 0.0,
+      "repair_failures": 0,
+      "repair_time_seconds": {
+        "mean": 80.89303567760017,
+        "median": 79.08208539600037
+      },
+      "strategy": "direct-one-shot",
+      "strict_vrr": 1.0,
+      "test_time_seconds": {
+        "mean": 2.185979148199749,
+        "median": 2.2092062069996246
+      },
+      "time_to_verified_seconds": {
+        "mean": 80.89303567760017,
+        "median": 79.08208539600037
+      },
+      "unresolved": 0,
+      "verification_failures": 0,
+      "verification_rejection_rate": 0.0,
+      "verified": 10,
+      "vrr": 1.0
+    },
+    {
+      "attempted_valid": 10,
+      "attempts": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "attempts_verified": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "compile_time_seconds": {
+        "mean": 1.5687543693001316,
+        "median": 1.5796821399999317
+      },
+      "diagnosis_success_rate": null,
+      "diagnosis_time_seconds": {
+        "mean": null,
+        "median": null
+      },
+      "execution_errors": 0,
+      "failure_reasons": [],
+      "human_review": 0,
+      "infrastructure_failure_rate": 0.0,
+      "infrastructure_failures": 0,
+      "out_of_scope_rate": 0.0,
+      "patch_size": {
+        "mean": 4.8,
+        "median": 4.5
+      },
+      "patch_size_verified": {
+        "mean": 4.8,
+        "median": 4.5
+      },
+      "provider_available_trials": 10,
+      "provider_available_vrr": 1.0,
+      "provider_calls": 10,
+      "provider_calls_per_verified": 1.0,
+      "provider_failure_rate": 0.0,
+      "provider_failures": 0,
+      "provider_quota_failures": 0,
+      "provider_time_seconds": {
+        "mean": 76.44415500369996,
+        "median": 72.87178075550037
+      },
+      "provider_timeouts": 0,
+      "provider_unknown_failures": 0,
+      "repair_failure_rate": 0.0,
+      "repair_failures": 0,
+      "repair_time_seconds": {
+        "mean": 83.42172394509998,
+        "median": 79.769492894
+      },
+      "strategy": "direct-retry",
+      "strict_vrr": 1.0,
+      "test_time_seconds": {
+        "mean": 2.2264028586995663,
+        "median": 2.2379520289996435
+      },
+      "time_to_verified_seconds": {
+        "mean": 83.42172394509998,
+        "median": 79.769492894
+      },
+      "unresolved": 0,
+      "verification_failures": 0,
+      "verification_rejection_rate": 0.0,
+      "verified": 10,
+      "vrr": 1.0
+    }
+  ],
+  "invalid_cases": 0,
+  "overall": [
+    {
+      "attempted_valid": 20,
+      "attempts": {
+        "mean": 1.2,
+        "median": 1.0
+      },
+      "attempts_verified": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "compile_time_seconds": {
+        "mean": 1.406623809499996,
+        "median": 1.5853758094999648
+      },
+      "diagnosis_success_rate": 1.0,
+      "diagnosis_time_seconds": {
+        "mean": 8.113066603850267,
+        "median": 8.104746265000358
+      },
+      "execution_errors": 0,
+      "failure_reasons": [
+        [
+          "PROVIDER_FAILED",
+          2
+        ]
+      ],
+      "human_review": 0,
+      "infrastructure_failure_rate": 0.1,
+      "infrastructure_failures": 0,
+      "out_of_scope_rate": 0.0,
+      "patch_size": {
+        "mean": 4.8,
+        "median": 4.5
+      },
+      "patch_size_verified": {
+        "mean": 5.333333333333333,
+        "median": 6.0
+      },
+      "provider_available_trials": 18,
+      "provider_available_vrr": 1.0,
+      "provider_calls": 24,
+      "provider_calls_per_verified": 1.3333333333333333,
+      "provider_failure_rate": 0.1,
+      "provider_failures": 2,
+      "provider_quota_failures": 2,
+      "provider_time_seconds": {
+        "mean": 70.93438704150009,
+        "median": 74.7071412614996
+      },
+      "provider_timeouts": 0,
+      "provider_unknown_failures": 0,
+      "repair_failure_rate": 0.0,
+      "repair_failures": 0,
+      "repair_time_seconds": {
+        "mean": 83.89070141864991,
+        "median": 88.22040009949978
+      },
+      "strategy": "bumpshield",
+      "strict_vrr": 0.9,
+      "test_time_seconds": {
+        "mean": 1.9800089181499458,
+        "median": 2.237416174999453
+      },
+      "time_to_verified_seconds": {
+        "mean": 88.53420721383321,
+        "median": 89.50802269650012
+      },
+      "unresolved": 2,
+      "verification_failures": 0,
+      "verification_rejection_rate": 0.0,
+      "verified": 18,
+      "vrr": 0.9
+    },
+    {
+      "attempted_valid": 20,
+      "attempts": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "attempts_verified": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "compile_time_seconds": {
+        "mean": 1.557242778299991,
+        "median": 1.582989510000516
+      },
+      "diagnosis_success_rate": null,
+      "diagnosis_time_seconds": {
+        "mean": null,
+        "median": null
+      },
+      "execution_errors": 0,
+      "failure_reasons": [],
+      "human_review": 0,
+      "infrastructure_failure_rate": 0.0,
+      "infrastructure_failures": 0,
+      "out_of_scope_rate": 0.0,
+      "patch_size": {
+        "mean": 5.45,
+        "median": 5.5
+      },
+      "patch_size_verified": {
+        "mean": 5.45,
+        "median": 5.5
+      },
+      "provider_available_trials": 20,
+      "provider_available_vrr": 1.0,
+      "provider_calls": 20,
+      "provider_calls_per_verified": 1.0,
+      "provider_failure_rate": 0.0,
+      "provider_failures": 0,
+      "provider_quota_failures": 0,
+      "provider_time_seconds": {
+        "mean": 83.49546991604997,
+        "median": 79.1901216335001
+      },
+      "provider_timeouts": 0,
+      "provider_unknown_failures": 0,
+      "repair_failure_rate": 0.0,
+      "repair_failures": 0,
+      "repair_time_seconds": {
+        "mean": 90.55117523135013,
+        "median": 86.61822890800022
+      },
+      "strategy": "direct-one-shot",
+      "strict_vrr": 1.0,
+      "test_time_seconds": {
+        "mean": 2.2200907751498393,
+        "median": 2.2344080434995703
+      },
+      "time_to_verified_seconds": {
+        "mean": 90.55117523135013,
+        "median": 86.61822890800022
+      },
+      "unresolved": 0,
+      "verification_failures": 0,
+      "verification_rejection_rate": 0.0,
+      "verified": 20,
+      "vrr": 1.0
+    },
+    {
+      "attempted_valid": 20,
+      "attempts": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "attempts_verified": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "compile_time_seconds": {
+        "mean": 1.544712032050046,
+        "median": 1.5771453904999362
+      },
+      "diagnosis_success_rate": null,
+      "diagnosis_time_seconds": {
+        "mean": null,
+        "median": null
+      },
+      "execution_errors": 0,
+      "failure_reasons": [],
+      "human_review": 0,
+      "infrastructure_failure_rate": 0.0,
+      "infrastructure_failures": 0,
+      "out_of_scope_rate": 0.0,
+      "patch_size": {
+        "mean": 5.6,
+        "median": 6.0
+      },
+      "patch_size_verified": {
+        "mean": 5.6,
+        "median": 6.0
+      },
+      "provider_available_trials": 20,
+      "provider_available_vrr": 1.0,
+      "provider_calls": 20,
+      "provider_calls_per_verified": 1.0,
+      "provider_failure_rate": 0.0,
+      "provider_failures": 0,
+      "provider_quota_failures": 0,
+      "provider_time_seconds": {
+        "mean": 81.60861168874997,
+        "median": 80.72979444650002
+      },
+      "provider_timeouts": 0,
+      "provider_unknown_failures": 0,
+      "repair_failure_rate": 0.0,
+      "repair_failures": 0,
+      "repair_time_seconds": {
+        "mean": 88.56372540384999,
+        "median": 87.61089645650003
+      },
+      "strategy": "direct-retry",
+      "strict_vrr": 1.0,
+      "test_time_seconds": {
+        "mean": 2.197835178299755,
+        "median": 2.2345257084998593
+      },
+      "time_to_verified_seconds": {
+        "mean": 88.56372540384999,
+        "median": 87.61089645650003
+      },
+      "unresolved": 0,
+      "verification_failures": 0,
+      "verification_rejection_rate": 0.0,
+      "verified": 20,
+      "vrr": 1.0
+    }
+  ],
+  "planned_trials": 60,
+  "root_cause": {
+    "api_accuracy": 0.6,
+    "api_correct": 12,
+    "api_labeled": 20,
+    "dependency_accuracy": 1.0,
+    "dependency_correct": 20,
+    "dependency_labeled": 20
+  },
+  "run_status": "COMPLETED",
+  "schema_version": 2,
+  "suite_id": "BUMP-FINAL-v1",
+  "total_cases": 20,
+  "total_results": 60,
+  "transitive": [
+    {
+      "attempted_valid": 10,
+      "attempts": {
+        "mean": 1.2,
+        "median": 1.0
+      },
+      "attempts_verified": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "compile_time_seconds": {
+        "mean": 1.4239413895000665,
+        "median": 1.6053809439999895
+      },
+      "diagnosis_success_rate": 1.0,
+      "diagnosis_time_seconds": {
+        "mean": 8.046125795699869,
+        "median": 8.063475885499997
+      },
+      "execution_errors": 0,
+      "failure_reasons": [
+        [
+          "PROVIDER_FAILED",
+          1
+        ]
+      ],
+      "human_review": 0,
+      "infrastructure_failure_rate": 0.1,
+      "infrastructure_failures": 0,
+      "out_of_scope_rate": 0.0,
+      "patch_size": {
+        "mean": 5.4,
+        "median": 6.5
+      },
+      "patch_size_verified": {
+        "mean": 6.0,
+        "median": 7.0
+      },
+      "provider_available_trials": 9,
+      "provider_available_vrr": 1.0,
+      "provider_calls": 12,
+      "provider_calls_per_verified": 1.3333333333333333,
+      "provider_failure_rate": 0.1,
+      "provider_failures": 1,
+      "provider_quota_failures": 1,
+      "provider_time_seconds": {
+        "mean": 70.48320042750005,
+        "median": 70.47788138350063
+      },
+      "provider_timeouts": 0,
+      "provider_unknown_failures": 0,
+      "repair_failure_rate": 0.0,
+      "repair_failures": 0,
+      "repair_time_seconds": {
+        "mean": 83.42891748719987,
+        "median": 84.2813154199996
+      },
+      "strategy": "bumpshield",
+      "strict_vrr": 0.9,
+      "test_time_seconds": {
+        "mean": 1.9931992922998574,
+        "median": 2.2581581719996393
+      },
+      "time_to_verified_seconds": {
+        "mean": 89.28695271122209,
+        "median": 87.01147356299998
+      },
+      "unresolved": 1,
+      "verification_failures": 0,
+      "verification_rejection_rate": 0.0,
+      "verified": 9,
+      "vrr": 0.9
+    },
+    {
+      "attempted_valid": 10,
+      "attempts": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "attempts_verified": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "compile_time_seconds": {
+        "mean": 1.5694057420000604,
+        "median": 1.5928037830000221
+      },
+      "diagnosis_success_rate": null,
+      "diagnosis_time_seconds": {
+        "mean": null,
+        "median": null
+      },
+      "execution_errors": 0,
+      "failure_reasons": [],
+      "human_review": 0,
+      "infrastructure_failure_rate": 0.0,
+      "infrastructure_failures": 0,
+      "out_of_scope_rate": 0.0,
+      "patch_size": {
+        "mean": 6.3,
+        "median": 7.0
+      },
+      "patch_size_verified": {
+        "mean": 6.3,
+        "median": 7.0
+      },
+      "provider_available_trials": 10,
+      "provider_available_vrr": 1.0,
+      "provider_calls": 10,
+      "provider_calls_per_verified": 1.0,
+      "provider_failure_rate": 0.0,
+      "provider_failures": 0,
+      "provider_quota_failures": 0,
+      "provider_time_seconds": {
+        "mean": 93.0604260244,
+        "median": 86.96973874649996
+      },
+      "provider_timeouts": 0,
+      "provider_unknown_failures": 0,
+      "repair_failure_rate": 0.0,
+      "repair_failures": 0,
+      "repair_time_seconds": {
+        "mean": 100.20931478510009,
+        "median": 93.59300544600012
+      },
+      "strategy": "direct-one-shot",
+      "strict_vrr": 1.0,
+      "test_time_seconds": {
+        "mean": 2.254202402099929,
+        "median": 2.298818233499901
+      },
+      "time_to_verified_seconds": {
+        "mean": 100.20931478510009,
+        "median": 93.59300544600012
+      },
+      "unresolved": 0,
+      "verification_failures": 0,
+      "verification_rejection_rate": 0.0,
+      "verified": 10,
+      "vrr": 1.0
+    },
+    {
+      "attempted_valid": 10,
+      "attempts": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "attempts_verified": {
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "compile_time_seconds": {
+        "mean": 1.5206696947999603,
+        "median": 1.5727947379999705
+      },
+      "diagnosis_success_rate": null,
+      "diagnosis_time_seconds": {
+        "mean": null,
+        "median": null
+      },
+      "execution_errors": 0,
+      "failure_reasons": [],
+      "human_review": 0,
+      "infrastructure_failure_rate": 0.0,
+      "infrastructure_failures": 0,
+      "out_of_scope_rate": 0.0,
+      "patch_size": {
+        "mean": 6.4,
+        "median": 7.0
+      },
+      "patch_size_verified": {
+        "mean": 6.4,
+        "median": 7.0
+      },
+      "provider_available_trials": 10,
+      "provider_available_vrr": 1.0,
+      "provider_calls": 10,
+      "provider_calls_per_verified": 1.0,
+      "provider_failure_rate": 0.0,
+      "provider_failures": 0,
+      "provider_quota_failures": 0,
+      "provider_time_seconds": {
+        "mean": 86.77306837379999,
+        "median": 86.43154816700019
+      },
+      "provider_timeouts": 0,
+      "provider_unknown_failures": 0,
+      "repair_failure_rate": 0.0,
+      "repair_failures": 0,
+      "repair_time_seconds": {
+        "mean": 93.70572686259997,
+        "median": 93.48779180949987
+      },
+      "strategy": "direct-retry",
+      "strict_vrr": 1.0,
+      "test_time_seconds": {
+        "mean": 2.1692674978999436,
+        "median": 2.2321089490001214
+      },
+      "time_to_verified_seconds": {
+        "mean": 93.70572686259997,
+        "median": 93.48779180949987
+      },
+      "unresolved": 0,
+      "verification_failures": 0,
+      "verification_rejection_rate": 0.0,
+      "verified": 10,
+      "vrr": 1.0
+    }
+  ],
+  "unexecuted_trials": 0,
+  "valid_cases": 20
+}

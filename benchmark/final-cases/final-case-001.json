@@ -1,0 +1,43 @@
+{
+  "case_type": "DIRECT",
+  "description": "Controlled direct removed method migration",
+  "ground_truth": {
+    "breaking_dependency": {
+      "artifact_id": "c001-api",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "2.0.0",
+      "old_version": "1.0.0"
+    },
+    "class": "com.bumpshield.finalfixture.c001.legacy.TextCleaner",
+    "failure_kind": "REMOVED_METHOD",
+    "member": "cleanLegacy(java.lang.String)"
+  },
+  "id": "final-case-001",
+  "provenance": {
+    "ground_truth_basis": "Controlled old/new source, Maven dependency tree, compiler diagnostic, and javap comparison.",
+    "license": null,
+    "project_name": "final-case-001",
+    "repository_url": null,
+    "source_commit": null,
+    "upgrade_origin": "CONSTRUCTED"
+  },
+  "source": "SYNTHETIC_FIXTURE",
+  "split": "FINAL",
+  "tags": [
+    "direct",
+    "removed-method",
+    "synthetic",
+    "constructed-upgrade"
+  ],
+  "task": {
+    "base_commit": "dc08a9964a7edda09c962fe8ade2911545707cac",
+    "repository": "../final-runtime/final-case-001/application",
+    "target_dependency": {
+      "artifact_id": "c001-api",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "2.0.0",
+      "old_version": "1.0.0"
+    },
+    "updated_commit": "9c899682d69c99c02c3a29dec6e5505176d1bc1a"
+  }
+}

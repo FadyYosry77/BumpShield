@@ -1,0 +1,33 @@
+{
+  "run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "status": "SUPPORTED_DIAGNOSIS",
+  "primary_hypothesis_id": "H-5388E6ACD6",
+  "kind": "REMOVED_MEMBER",
+  "summary": "com.google.guava:guava removed toStringHelper(com.jolbox.bonecp.ConnectionHandle)",
+  "evidence_strength": "VERY_STRONG",
+  "evidence_score": 100,
+  "explanation": "Deterministic evidence strongly supports that the direct Guava upgrade removed the failing Objects member.",
+  "causal_chain": [
+    {
+      "order": 1,
+      "kind": "TARGET_UPGRADE",
+      "description": "requested target com.google.guava:guava changed from 15.0 to 21.0"
+    },
+    {
+      "order": 2,
+      "kind": "API_CHANGE",
+      "description": "toStringHelper(java.lang.Object) is present before and absent after the dependency change"
+    },
+    {
+      "order": 3,
+      "kind": "PROJECT_USAGE",
+      "description": "BoneCP production source uses Objects.toStringHelper(...) at two localized call sites"
+    },
+    {
+      "order": 4,
+      "kind": "OBSERVED_FAILURE",
+      "description": "Maven reports two MISSING_SYMBOL compiler failures"
+    }
+  ]
+}
+

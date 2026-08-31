@@ -1,0 +1,44 @@
+diff --git a/bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java b/bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java
+index 76f75361593dc550fadf51fd527c91d8b3a32014..fbd87c09b5c3eaec727786ba5235f49265205e29 100755
+--- a/bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java
++++ b/bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java
+@@ -48,7 +48,7 @@ import org.slf4j.Logger;
+ import org.slf4j.LoggerFactory;
+ 
+ import com.google.common.annotations.VisibleForTesting;
+-import com.google.common.base.Objects;
++import com.google.common.base.MoreObjects;
+ import com.google.common.collect.ImmutableSet;
+ import com.google.common.collect.MapMaker;
+ import com.jolbox.bonecp.hooks.ConnectionHook;
+@@ -1708,7 +1708,7 @@ public class ConnectionHandle implements Connection,Serializable{
+ 
+ 		long timeMillis = System.currentTimeMillis();
+ 
+-		return Objects.toStringHelper(this)
++		return MoreObjects.toStringHelper(this)
+ 				.add("url", this.pool.getConfig().getJdbcUrl())
+ 				.add("user", this.pool.getConfig().getUsername())
+ 				.add("debugHandle", this.debugHandle)
+diff --git a/bonecp/src/main/java/com/jolbox/bonecp/ConnectionPartition.java b/bonecp/src/main/java/com/jolbox/bonecp/ConnectionPartition.java
+index 84bc36fb06a7ac6ee317ca3210f703f1dcf6fe62..b4736d9c895ee1e5bece27fb91af0e9e0acedf44 100755
+--- a/bonecp/src/main/java/com/jolbox/bonecp/ConnectionPartition.java
++++ b/bonecp/src/main/java/com/jolbox/bonecp/ConnectionPartition.java
+@@ -30,7 +30,7 @@ import org.slf4j.Logger;
+ import org.slf4j.LoggerFactory;
+ 
+ import com.google.common.base.FinalizableWeakReference;
+-import com.google.common.base.Objects;
++import com.google.common.base.MoreObjects;
+ 
+ /**
+  * Connection Partition structure
+@@ -311,7 +311,7 @@ public class ConnectionPartition implements Serializable{
+ 	 */
+ 	@Override
+ 	public String toString() {
+-		return Objects.toStringHelper(this)
++		return MoreObjects.toStringHelper(this)
+ 				.add("url", this.pool.getConfig().getJdbcUrl())
+ 				.add("user", this.pool.getConfig().getUsername())
+ 				.add("minConnections", this.getMinConnections())

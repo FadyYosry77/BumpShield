@@ -1,0 +1,33 @@
+{
+  "cases": [
+    "final-cases/final-case-001.json",
+    "final-cases/final-case-002.json",
+    "final-cases/final-case-003.json",
+    "final-cases/final-case-004.json",
+    "final-cases/final-case-005.json",
+    "final-cases/final-case-006.json",
+    "final-cases/final-case-007.json",
+    "final-cases/final-case-008.json",
+    "final-cases/final-case-009.json",
+    "final-cases/final-case-010.json",
+    "final-cases/final-case-011.json",
+    "final-cases/final-case-012.json",
+    "final-cases/final-case-013.json",
+    "final-cases/final-case-014.json",
+    "final-cases/final-case-015.json",
+    "final-cases/final-case-016.json",
+    "final-cases/final-case-017.json",
+    "final-cases/final-case-018.json",
+    "final-cases/final-case-019.json",
+    "final-cases/final-case-020.json"
+  ],
+  "dataset_lock": "bump-final-v1.lock.json",
+  "evaluation_config": "final-config-v1.json",
+  "id": "BUMP-FINAL-v1",
+  "strategies": [
+    "direct-one-shot",
+    "direct-retry",
+    "bumpshield"
+  ],
+  "trials": 1
+}

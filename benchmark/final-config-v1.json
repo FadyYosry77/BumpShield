@@ -1,0 +1,45 @@
+{
+  "configuration": {
+    "attempt_budgets": {
+      "bumpshield": 3,
+      "direct-one-shot": 1,
+      "direct-retry": 3
+    },
+    "case_composition": {
+      "direct": 10,
+      "real_project_target_minimum": 8,
+      "total": 20,
+      "transitive": 10
+    },
+    "case_validity_policy": "base-pass-updated-fail-target-resolution-v1",
+    "causal_scoring_hash": "f7a419ac1431fdec71470ebc6e27b2eb49bc856ea32c41573f5b6fb87b0b126b",
+    "diagnosis_policy": "deterministic-investigator-v1",
+    "evaluation_version": "BumpShield MVP Evaluation v1",
+    "freeze_marker": "FROZEN FOR FINAL EVALUATION",
+    "maven_timeout_seconds": 600.0,
+    "model": null,
+    "planner_policy": "migration-planner-v1",
+    "prompt_templates": {
+      "bumpshield-repair-v1": "021f06f05ed4c554144b9109cad21d2814257a540c5a617748be6784ca99df87",
+      "direct-one-shot-v1": "c68a5f521f59bc3089e44101cc469f83605ba74163a987aba59ebb6f865268ab",
+      "direct-retry-v1": "c68a5f521f59bc3089e44101cc469f83605ba74163a987aba59ebb6f865268ab"
+    },
+    "provider_timeout_seconds": 900.0,
+    "repair_provider": "codex",
+    "schema_version": 2,
+    "strategies": [
+      "direct-one-shot",
+      "direct-retry",
+      "bumpshield"
+    ],
+    "strategy_order_policy": "counterbalanced-rotation-v1",
+    "trials": 1,
+    "unseen_case_policy": {
+      "cases_used_for_tuning": false,
+      "rerun_failed_only": false,
+      "split": "FINAL"
+    },
+    "verification_policy": "independent-verifier-v1"
+  },
+  "sha256": "3c0dfaad58f985d1c9a9db7f17ee28a84af7f8b3bcce45de5dd078877943ff56"
+}

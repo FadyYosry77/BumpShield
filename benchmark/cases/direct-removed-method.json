@@ -1,0 +1,30 @@
+{
+  "id": "direct-removed-method",
+  "description": "Direct parser-lib upgrade removes Parser.parseValue(String)",
+  "task": {
+    "repository": "../runtime/direct-removed-method/application",
+    "base_commit": "base",
+    "updated_commit": "updated",
+    "target_dependency": {
+      "group_id": "com.bumpshield.fixture",
+      "artifact_id": "parser-lib",
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    }
+  },
+  "case_type": "DIRECT",
+  "source": "SYNTHETIC_FIXTURE",
+  "split": "DEV",
+  "ground_truth": {
+    "breaking_dependency": {
+      "group_id": "com.bumpshield.fixture",
+      "artifact_id": "parser-lib",
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    },
+    "failure_kind": "REMOVED_METHOD",
+    "class": "com.bumpshield.fixture.parser.Parser",
+    "member": "parseValue(java.lang.String)"
+  },
+  "tags": ["direct", "removed-method", "synthetic"]
+}

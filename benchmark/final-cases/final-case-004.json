@@ -1,0 +1,43 @@
+{
+  "case_type": "DIRECT",
+  "description": "Controlled direct changed method signature migration",
+  "ground_truth": {
+    "breaking_dependency": {
+      "artifact_id": "c004-api",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "2.0.0",
+      "old_version": "1.0.0"
+    },
+    "class": "com.bumpshield.finalfixture.c004.legacy.WhitespaceFolder",
+    "failure_kind": "CHANGED_METHOD_SIGNATURE",
+    "member": "fold(java.lang.String)"
+  },
+  "id": "final-case-004",
+  "provenance": {
+    "ground_truth_basis": "Controlled old/new source, Maven dependency tree, compiler diagnostic, and javap comparison.",
+    "license": null,
+    "project_name": "final-case-004",
+    "repository_url": null,
+    "source_commit": null,
+    "upgrade_origin": "CONSTRUCTED"
+  },
+  "source": "SYNTHETIC_FIXTURE",
+  "split": "FINAL",
+  "tags": [
+    "direct",
+    "changed-method-signature",
+    "synthetic",
+    "constructed-upgrade"
+  ],
+  "task": {
+    "base_commit": "ebf36773af2835bc4bd2fb0e4de3830f4c59e7f5",
+    "repository": "../final-runtime/final-case-004/application",
+    "target_dependency": {
+      "artifact_id": "c004-api",
+      "group_id": "com.bumpshield.finalfixture",
+      "new_version": "2.0.0",
+      "old_version": "1.0.0"
+    },
+    "updated_commit": "8a879b8eea821915ced4b57af29bd07107aeeae8"
+  }
+}

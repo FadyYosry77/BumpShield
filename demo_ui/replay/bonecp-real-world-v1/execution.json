@@ -1,0 +1,15 @@
+{
+  "compile": {
+    "command": "./mvnw -B compile",
+    "status": "PASS"
+  },
+  "tests": {
+    "command": "./mvnw -B test",
+    "status": "PASS",
+    "tests": 197,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 3
+  }
+}
+

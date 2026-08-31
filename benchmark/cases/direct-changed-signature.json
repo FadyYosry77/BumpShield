@@ -1,0 +1,30 @@
+{
+  "id": "direct-changed-signature",
+  "description": "Direct renderer-lib upgrade adds a required RenderMode parameter",
+  "task": {
+    "repository": "../runtime/direct-changed-signature/application",
+    "base_commit": "base",
+    "updated_commit": "updated",
+    "target_dependency": {
+      "group_id": "com.bumpshield.fixture",
+      "artifact_id": "renderer-lib",
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    }
+  },
+  "case_type": "DIRECT",
+  "source": "SYNTHETIC_FIXTURE",
+  "split": "DEV",
+  "ground_truth": {
+    "breaking_dependency": {
+      "group_id": "com.bumpshield.fixture",
+      "artifact_id": "renderer-lib",
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    },
+    "failure_kind": "CHANGED_METHOD_SIGNATURE",
+    "class": "com.bumpshield.fixture.renderer.Renderer",
+    "member": "render(java.lang.String)"
+  },
+  "tags": ["direct", "signature-change", "synthetic"]
+}

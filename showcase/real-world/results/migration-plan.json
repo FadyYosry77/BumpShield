@@ -1,0 +1,27 @@
+{
+  "source_run_id": "f56572fa0b554944b87dc68221c7a44f",
+  "status": "PLAN_READY",
+  "migration_kind": "REMOVED_METHOD",
+  "scope": "SMALL",
+  "affected_class": "com.google.common.base.Objects",
+  "affected_member": "toStringHelper(com.jolbox.bonecp.ConnectionHandle)",
+  "allowed_files": [
+    "bonecp/src/main/java/com/jolbox/bonecp/ConnectionHandle.java",
+    "bonecp/src/main/java/com/jolbox/bonecp/ConnectionPartition.java"
+  ],
+  "protected_files": [
+    "pom.xml"
+  ],
+  "required_outcome": "Stop relying on Objects.toStringHelper(...) while retaining Guava 21.0 and behavior.",
+  "constraints": [
+    "TARGET_VERSION_MUST_REMAIN",
+    "TARGET_DEPENDENCY_MUST_REMAIN",
+    "NO_TEST_DELETION",
+    "NO_TEST_DISABLEMENT",
+    "NO_TEST_SKIP_CONFIGURATION",
+    "NO_FUNCTIONALITY_REMOVAL",
+    "MINIMAL_PATCH",
+    "NO_UNRELATED_CHANGES"
+  ]
+}
+

@@ -1,0 +1,37 @@
+BumpShield Migration Report
+===========================
+
+Target Dependency
+com.bumpshield.finalfixture:c011-core
+1.0.0 -> 2.0.0
+
+Diagnosis
+Deterministic evidence supports com.bumpshield.finalfixture:c011-legacy-api removed trimRecord(java.lang.String).
+
+Migration Plan
+Plan REMOVED_METHOD migration for com.bumpshield.finalfixture.c011.legacy.RecordTrimmer.trimRecord(java.lang.String) across 1 bounded source file(s).
+
+Repair attempts: 1
+Winning attempt: 1
+
+Attempt 1: VERIFIED
+Files changed: 1
+Lines: +4 -2
+Compile: PASS
+Tests: PASS
+
+Independent Verification
+TARGET_DEPENDENCY: PASS - requested upgraded target version retained
+CAUSAL_DEPENDENCY: PASS - causal dependency resolution retained
+COMPILE: PASS - Maven compile status: PASS
+TESTS: PASS - Maven tests status: PASS
+TEST_FILES: PASS - no test files deleted
+TEST_DISABLEMENT: PASS - no new test disablement
+TEST_SKIPPING: PASS - no Maven test skipping introduced
+PATCH_SCOPE: PASS - patch scope: IN_SCOPE
+PATCH_SAFETY: PASS - no forbidden or suspicious deterministic patch findings
+
+Final Status
+VERIFIED_MIGRATION
+
+Duration seconds: 81.551

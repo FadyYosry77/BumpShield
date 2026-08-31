@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bumpshield.fixture</groupId>
+  <artifactId>removed-class-app</artifactId>
+  <version>1.0.0</version>
+  <properties><maven.compiler.release>11</maven.compiler.release></properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.bumpshield.fixture</groupId>
+      <artifactId>facade-lib</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId><artifactId>junit</artifactId>
+      <version>4.13.2</version><scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
