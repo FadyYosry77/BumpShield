@@ -64,7 +64,7 @@ verifier-controlled failure are more valuable than a confident success message.
 
 ## Links
 
-- Repository or archive: `<REPOSITORY_OR_ARCHIVE_URL>`
+- Repository: `https://github.com/FadyYosry77/BumpShield`
 - Video (five minutes maximum): `<VIDEO_URL>`
 - Submission overview: `SUBMISSION.md`
 - Reproduction: `docs/reproduction-guide.md`

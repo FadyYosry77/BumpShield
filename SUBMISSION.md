@@ -123,5 +123,6 @@ prompt-tuning opportunity.
 ## Submission artifacts
 
 Run `python3 scripts/build_submission_archive.py` to create the sanitized ZIP
-outside the repository. The final platform upload, public repository URL, and
-video URL remain human-controlled submission actions.
+outside the repository. Source is published at
+`https://github.com/FadyYosry77/BumpShield`; repository visibility, final
+platform submission, and video URL remain human-controlled actions.

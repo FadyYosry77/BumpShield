@@ -22,7 +22,7 @@ provider credentials, or network access.
 ## 1. Install from a clean checkout
 
 ```bash
-git clone <SUBMISSION_REPOSITORY_URL> BumpShield
+git clone https://github.com/FadyYosry77/BumpShield.git
 cd BumpShield
 python3 -m venv .venv
 source .venv/bin/activate
